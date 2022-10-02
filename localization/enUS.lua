@@ -29,8 +29,8 @@ L["config_banker_desc"] = "Show the banker locations."
 L["config_barber"] = "Barber"
 L["config_barber_desc"] = "Show the barber location."
 
-L["config_bubble"] = ""
-L["config_bubble_desc"] = ""
+L["config_bubble"] = "Crafting Order"
+L["config_bubble_desc"] = "Show the NPC for crafting orders location."
 
 L["config_flightmaster"] = "Flightmaster"
 L["config_flightmaster_desc"] = "Show the flightmaster location."
