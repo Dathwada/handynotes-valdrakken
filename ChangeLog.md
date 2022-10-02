@@ -1,5 +1,5 @@
 ## Revision History:
 
-#### v1 (April 20, 2022)
+#### v0.1 (Oktober 02, 2022)
 -------------------------------
-* Added auctioneers, bankers, innkeeper, mailboxes, armor enchancer, portals, profession trainers, transmogrifier, teleport platforms, vendors, void storage
+* Added auctioneers, bankers, barber, crafting orders, flightmaster, guild vault, innkeepers, mailboxes, portals, rostrum of transformation, stable master, teleport platforms, profession trainers, transmogrifier, vendors, void storage
