@@ -121,38 +121,6 @@ local function RemoveFlightMasterWaypoint()
 end
 
 ----------------------------------------------------------------------------------------------------
-----------------------------------------------PREPARE-----------------------------------------------
-----------------------------------------------------------------------------------------------------
-
--- workaround to prepare the multilabels with and without notes
--- because the game displays the first line in 14px and
--- the following lines in 13px with a normal for loop.
-local function Prepare(label, note)
-    local t = {}
-    local NOTE
-
-    for i, name in ipairs(label) do
-
-        -- set spell name as label
-        if (type(name) == "number") then
-            name = GetSpellInfo(name)
-        end
-
-        -- add additional notes
-        if (note and note[i]) then
-            NOTE = " ("..note[i]..")"
-        else
-            NOTE = ''
-        end
-
-        -- store everything together
-        t[i] = name..NOTE
-    end
-
-    return table.concat(t, "\n")
-end
-
-----------------------------------------------------------------------------------------------------
 ------------------------------------------------ICON------------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
@@ -186,7 +154,7 @@ end
 local GetPointInfo = function(point)
     local icon
     if (point) then
-        local label = GetCreatureNamebyID(point.npc) or point.label or point.multilabel and Prepare(point.multilabel) or UNKNOWN
+        local label = GetCreatureNamebyID(point.npc) or point.label or UNKNOWN
         if (point.icon == "portal" and point.quest and not IsQuestCompleted(point.quest)) then
             icon = private.constants.icon["MagePortalHorde"]
         else
@@ -221,9 +189,6 @@ local function SetTooltip(tooltip, point)
         end
         if (point.note) then
             tooltip:AddLine("("..point.note..")")
-        end
-        if (point.multilabel) then
-            tooltip:AddLine(Prepare(point.multilabel, point.multinote))
         end
         if (point.quest and not IsQuestCompleted(point.quest)) then
             if (C_QuestLog.GetTitleForQuestID(point.quest) ~= nil) then
