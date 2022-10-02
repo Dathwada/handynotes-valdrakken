@@ -152,6 +152,9 @@ gcmp.show_portal["disabled"] = function() return IsAddOnLoaded("HandyNotes_Trave
 
 gcmp.show_portaltrainer["hidden"] = function() return not (select(2, UnitClass("player")) == "MAGE") end
 
+gcmp.show_tpplatform["name"] = function() return IsAddOnLoaded("HandyNotes_TravelGuide") and L["config_tpplatform"].." |cFFFF0000(*)|r" or L["config_tpplatform"] end
+gcmp.show_tpplatform["disabled"] = function() return IsAddOnLoaded("HandyNotes_TravelGuide") end
+
 -- create the scale / alpha config menu
 for i, icongroup in ipairs(private.constants.icongroup) do
 
@@ -184,9 +187,6 @@ end
 
 -- set some parameters for scale / alpha config menu points
 local sacmp = config.options.args.SCALEALPHA.args
--- sacmp.name_auctioneer["hidden"] = function() return not addon:CharacterHasProfession(202) end
--- sacmp.icon_scale_auctioneer["hidden"] = function() return not addon:CharacterHasProfession(202) end
--- sacmp.icon_alpha_auctioneer["hidden"] = function() return not addon:CharacterHasProfession(202) end
 
 sacmp.name_portal["name"] = function() return IsAddOnLoaded("HandyNotes_TravelGuide") and L["config_portal"].." |cFFFF0000(*)|r" or L["config_portal"] end
 sacmp.icon_scale_portal["disabled"] = function() return IsAddOnLoaded("HandyNotes_TravelGuide") end
@@ -195,3 +195,7 @@ sacmp.icon_alpha_portal["disabled"] = function() return IsAddOnLoaded("HandyNote
 sacmp.name_portaltrainer["hidden"] = function() return not (select(2, UnitClass("player")) == "MAGE") end
 sacmp.icon_scale_portaltrainer["hidden"] = function() return not (select(2, UnitClass("player")) == "MAGE") end
 sacmp.icon_alpha_portaltrainer["hidden"] = function() return not (select(2, UnitClass("player")) == "MAGE") end
+
+sacmp.name_tpplatform["name"] = function() return IsAddOnLoaded("HandyNotes_TravelGuide") and L["config_tpplatform"].." |cFFFF0000(*)|r" or L["config_tpplatform"] end
+sacmp.icon_scale_tpplatform["disabled"] = function() return IsAddOnLoaded("HandyNotes_TravelGuide") end
+sacmp.icon_alpha_tpplatform["disabled"] = function() return IsAddOnLoaded("HandyNotes_TravelGuide") end

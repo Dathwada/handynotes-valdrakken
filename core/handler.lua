@@ -123,7 +123,9 @@ local function SetTooltip(tooltip, point)
             if (name) then
                 tooltip:AddLine(name)
             end
-            if (sublabel) then
+            if (point.sublabel) then
+                tooltip:AddLine(point.sublabel,1,1,1)
+            elseif (sublabel) then
                 tooltip:AddLine(sublabel,1,1,1)
             end
         end
@@ -340,19 +342,22 @@ do
         if (point.icon == "auctioneer" and not private.db.show_auctioneer) then return false end
         if (point.icon == "banker" and not private.db.show_banker) then return false end
         if (point.icon == "barber" and not private.db.show_barber) then return false end
+        if (point.icon == "bubble" and not private.db.show_bubble) then return false end
+        if (point.icon == "flightmaster" and not private.db.show_flightmaster) then return false end
         if (point.icon == "greatvault" and not private.db.show_greatvault) then return false end
         if (point.icon == "guildvault" and not private.db.show_guildvault) then return false end
         if (point.icon == "innkeeper" and not private.db.show_innkeeper) then return false end
         if (point.icon == "mail" and not private.db.show_mail) then return false end
         if (point.icon == "portal" and (not private.db.show_portal or IsAddOnLoaded("HandyNotes_TravelGuide"))) then return false end
         if (point.icon == "reforge" and not private.db.show_reforge) then return false end
+        if (point.icon == "rostrum" and not private.db.show_rostrum) then return false end
         if (point.icon == "stablemaster" and not private.db.show_stablemaster) then return false end
         if (point.icon == "trainer" and not private.db.show_trainer) then return false end
         if (point.icon == "portaltrainer" and not private.db.show_portaltrainer) then return false end
         if (point.icon == "transmogrifier" and not private.db.show_transmogrifier) then return false end
+        if (point.icon == "tpplatform" and (not private.db.show_tpplatform or IsAddOnLoaded("HandyNotes_TravelGuide"))) then return false end
         if ((point.icon == "vendor" or point.icon == "anvil") and not private.db.show_vendor) then return false end
         if (point.icon == "void" and not private.db.show_void) then return false end
-        if (point.icon == "bubble" and not private.db.show_bubble) then return false end
     end
         return true
     end

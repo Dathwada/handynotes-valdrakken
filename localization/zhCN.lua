@@ -46,6 +46,9 @@ L["config_portal_desc"] = "显示传送门的位置。"
 L["config_portaltrainer"] = "传送门训练师"
 L["config_portaltrainer_desc"] = "显示传送门训练师图标"
 
+L["config_tpplatform"] = "传送平台"
+L["config_tpplatform_desc"] = "显示传送平台的位置"
+
 L["config_travelguide_note"] = "|cFFFF0000* 由于 TravelGuide 的存在, 本模块不会启用 |r"
 
 L["config_reforge"] = "物品升级"

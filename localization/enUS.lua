@@ -29,6 +29,12 @@ L["config_banker_desc"] = "Show the banker locations."
 L["config_barber"] = "Barber"
 L["config_barber_desc"] = "Show the barber location."
 
+L["config_bubble"] = ""
+L["config_bubble_desc"] = ""
+
+L["config_flightmaster"] = "Flightmaster"
+L["config_flightmaster_desc"] = "Show the flightmaster location."
+
 L["config_guildvault"] = "Guild Vault"
 L["config_guildvault_desc"] = "Show the guild vault location."
 
@@ -44,10 +50,16 @@ L["config_portal_desc"] = "Show the portal locations."
 L["config_portaltrainer"] = "Portal Trainer"
 L["config_portaltrainer_desc"] = "Show the Mage portal trainer location."
 
+L["config_tpplatform"] = "Teleport Platform"
+L["config_tpplatform_desc"] = "Show the teleport platform locations."
+
 L["config_travelguide_note"] = "|cFFFF0000*Already active through HandyNotes: TravelGuide.|r"
 
 L["config_reforge"] = "Armor Enhancer"
 L["config_reforge_desc"] = "Show the armor enhancer location."
+
+L["config_rostrum"] = "Rostrum of Transformation"
+L["config_rostrum_desc"] = "Show the Rostrum of Transformation location."
 
 L["config_stablemaster"] = "Stable Master"
 L["config_stablemaster_desc"] = "Show the stable master location."
@@ -127,8 +139,11 @@ L["handler_tooltip_quest"] = "Unlocked with quest"
 ----------------------------------------------DATABASE----------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
+L["Expert Pet Trainer"] = true
+L["Mailbox"] = true
 L["Portal to Orgrimmar"] = true
 L["Portal to Stormwind"] = true
-L["Mailbox"] = true
+L["Rostrum of Transformation"] = true
+L["Visage of True Self"] = true
 
 end

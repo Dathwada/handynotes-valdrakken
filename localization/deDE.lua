@@ -29,6 +29,12 @@ L["config_banker_desc"] = "Zeigt die Positionen der Bankiers an."
 L["config_barber"] = "Barbier"
 L["config_barber_desc"] = "Zeigt die Position des Barbiers an."
 
+L["config_bubble"] = ""
+L["config_bubble_desc"] = ""
+
+L["config_flightmaster"] = "Flugmeister"
+L["config_flightmaster_desc"] = "Zeigt die Position des Flugmeisters an."
+
 L["config_guildvault"] = "Gildentresor"
 L["config_guildvault_desc"] = "Zeigt die Position des Gildentresors an."
 
@@ -44,10 +50,16 @@ L["config_portal_desc"] = "Zeigt die Position der Portale an."
 L["config_portaltrainer"] = "Portallehrer"
 L["config_portaltrainer_desc"] = "Zeigt die Position des Portallehrers für Magier an."
 
+L["config_tpplatform"] = "Teleportplattformen"
+L["config_tpplatform_desc"] = "Zeigt die Positionen der Teleportplattformen an."
+
 L["config_travelguide_note"] = "|cFFFF0000*Bereits durch HandyNotes: TravelGuide aktiv.|r"
 
 L["config_reforge"] = "Rüstungsverbesserer"
 L["config_reforge_desc"] = "Zeigt die Position des Rüstungsverbesserers an."
+
+L["config_rostrum"] = "Podium der Transformation"
+L["config_rostrum_desc"] = "Zeigt die Positionen des Podium der Transformation an."
 
 L["config_stablemaster"] = "Stallmeister"
 L["config_stablemaster_desc"] = "Zeigt die Position des Stallmeisters an."
@@ -127,8 +139,11 @@ L["handler_tooltip_quest"] = "Freigeschaltet mit der Quest"
 ----------------------------------------------DATABASE----------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
+L["Expert Pet Trainer"] = "Tierausbildungsexpertin"
+L["Mailbox"] = "Briefkasten"
 L["Portal to Orgrimmar"] = "Portal nach Orgrimmar"
 L["Portal to Stormwind"] = "Portal nach Sturmwind"
-L["Mailbox"] = "Briefkasten"
+L["Rostrum of Transformation"] = "Podium der Transformation"
+L["Visage of True Self"] = "Angesicht des Selbst"
 
 end
