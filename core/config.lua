@@ -85,23 +85,6 @@ config.options = {
                     desc = L["config_picons_trainer_desc"],
                     order = 33.2,
                 },
-                fmaster_waypoint = {
-                    type = "toggle",
-                    width = 1.3,
-                    name = L["config_fmaster_waypoint"],
-                    desc = L["config_fmaster_waypoint_desc"],
-                    order = 34,
-                },
-                fmaster_waypoint_dropdown = {
-                    type = "select",
-                    values = { L["Blizzard"], L["TomTom"], L["Both"] },
-                    disabled = function() return not private.db.fmaster_waypoint end,
-                    hidden = function() return not IsAddOnLoaded("TomTom") end,
-                    name = L["config_waypoint_dropdown"],
-                    desc = L["config_waypoint_dropdown_desc"],
-                    width = 0.7,
-                    order = 35,
-                },
                 easy_waypoint = {
                     type = "toggle",
                     width = 1.3,
