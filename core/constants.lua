@@ -73,6 +73,7 @@ constants.defaults = {
         -- show_others = true,
 
         show_onlymytrainers = false,
+        use_old_picons = false,
         easy_waypoint = true,
         easy_waypoint_dropdown = 1,
 

@@ -72,6 +72,10 @@ local function SetIcon(point)
                   or (private.db.picons_trainer and point.icon == "trainer" and point.picon)
                   or point.icon
 
+    if (private.db.use_old_picons and point.picon) then
+        icon_key = icon_key .. '_old'
+    end
+
     if (icon_key and constantsicon[icon_key]) then
         return constantsicon[icon_key]
     end

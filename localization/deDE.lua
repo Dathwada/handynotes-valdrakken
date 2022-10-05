@@ -101,6 +101,8 @@ L["Both"] = "Beide"
 L["config_picons"] = "Zeige Berufssymbole für:"
 L["config_picons_vendor_desc"] = "Zeigt anstelle der normalen Händlersymbole die berufsbezogenen Symbole für die Händler an."
 L["config_picons_trainer_desc"] = "Zeigt anstelle der normalen Berufslehrersymbole die berufsbezogenen Symbole für die Berufslehrer an."
+L["config_use_old_picons"] = "Zeige die alten Berufssymbole"
+L["config_use_old_picons_desc"] = "Zeigt anstelle der neuen Berufssymbole wieder die alten Berufssymbole an (vor Dragonflight)."
 
 L["config_restore_nodes"] = "Versteckte Punkte wiederherstellen"
 L["config_restore_nodes_desc"] = "Stellt alle Punkte wieder her, die über das Kontextmenü versteckt wurden."
