@@ -74,6 +74,8 @@ constants.defaults = {
 
         show_onlymytrainers = false,
         use_old_picons = false,
+        picons_vendor = false,
+        picons_trainer = false,
         easy_waypoint = true,
         easy_waypoint_dropdown = 1,
 
