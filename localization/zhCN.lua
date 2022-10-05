@@ -1,4 +1,4 @@
-local L = LibStub("AceLocale-3.0"):NewLocale("HandyNotes_Oribos", "zhCN", false, true)
+local L = LibStub("AceLocale-3.0"):NewLocale("HandyNotes_Valdrakken", "zhCN", false, true)
 
 if not L then return end
 -- Simplified Chinese localization by nbyang ( https://www.curseforge.com/members/nbyang )
@@ -9,8 +9,8 @@ if L then
 -----------------------------------------------CONFIG-----------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
-L["config_plugin_name"] = "奥利波斯"
-L["config_plugin_desc"] = "在世界地图和小地图中提示奥利波斯的各种NPC"
+-- L["config_plugin_name"] = ""
+-- L["config_plugin_desc"] = ""
 
 L["config_tab_general"] = "通用"
 L["config_tab_scale_alpha"] = "缩放/透明度"

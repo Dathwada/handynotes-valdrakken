@@ -1,4 +1,4 @@
-local L = LibStub("AceLocale-3.0"):NewLocale("HandyNotes_Oribos", "koKR", false, true)
+local L = LibStub("AceLocale-3.0"):NewLocale("HandyNotes_Valdrakken", "koKR", false, true)
 
 if not L then return end
 -- Korean localization by unrealcrom96 ( https://www.curseforge.com/members/unrealcrom96 )
@@ -15,8 +15,6 @@ L["config_easy_waypoints"] = "간단한 웨이포인트"
 L["config_easy_waypoints_desc"] = "손쉽게 웨이포인트를 활성화 합니다. 마우스 오른쪽 클릭으로 웨이포인트를 설정할 수 있으며, 추가된 기능을 사용하려면 CTRL+ 오른쪽 클릭하면 됩니다."
 L["config_fmaster_waypoint"] = "비행 조련사 웨이포인트"
 L["config_fmaster_waypoint_desc"] = "전이의 고리에 입장하면 자동으로 비행 조련사에 웨이포인트를 설정합니다."
-L["config_waypoint_dropdown"] = "선택"
-L["config_waypoint_dropdown_desc"] = "웨이포인트의 생성 조건을 선택하세요."
 L["config_guildvault"] = "길드 금고"
 L["config_guildvault_desc"] = "길드 금고 위치를 표시합니다."
 L["config_icon_alpha"] = "아이콘 투명도"
@@ -36,8 +34,6 @@ L["config_others_desc"] = "다른 모든 POI 들을 표시합니다."
 L["config_picons"] = "전문 기술 아이콘으로 표시:"
 L["config_picons_trainer_desc"] = "기술 전문가 아이콘 대신 전문 기술 아이콘으로 표시합니다."
 L["config_picons_vendor_desc"] = "상인 아이콘 대신 전문 기술 아이콘으로 표시합니다."
-L["config_plugin_desc"] = "오리보스의 세계 지도 및 미니맵에 NPC 및 POI를 표시합니다."
-L["config_plugin_name"] = "오리보스"
 L["config_portal"] = "차원문"
 L["config_portal_desc"] = "차원문 위치를 표시합니다."
 L["config_portaltrainer"] = "순간이동 전문 마법사"
@@ -62,6 +58,8 @@ L["config_vendor"] = "상인"
 L["config_vendor_desc"] = "상인 위치를 표시합니다."
 L["config_void"] = "공허 보관사"
 L["config_void_desc"] = "공허 보관사 위치를 표시합니다."
+L["config_waypoint_dropdown"] = "선택"
+L["config_waypoint_dropdown_desc"] = "웨이포인트의 생성 조건을 선택하세요."
 L["config_what_to_display"] = "표시할 수 있는 아이콘"
 L["config_what_to_display_desc"] = "지도에 표시할 아이콘을 선택합니다."
 L["dev_config_force_nodes"] = "모든 위치 강제 표시"

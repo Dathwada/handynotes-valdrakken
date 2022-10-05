@@ -14,7 +14,7 @@ private.locale = L
 
 addon.constants = private.constants
 
-_G.HandyNotes_Oribos = addon
+_G.HandyNotes_Valdrakken = addon
 
 local IsQuestCompleted = C_QuestLog.IsQuestFlaggedCompleted
 local constantsicon = private.constants.icon
@@ -31,12 +31,12 @@ local RetrievingData    = L["handler_tooltip_data"]
 --------------------------------------------GET NPC NAMES-------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
-local NPClinkOribos = CreateFrame("GameTooltip", "NPClinkOribos", UIParent, "GameTooltipTemplate")
+local NPClinkValdrakken = CreateFrame("GameTooltip", "NPClinkValdrakken", UIParent, "GameTooltipTemplate")
 local function GetCreatureNamebyID(id)
-	NPClinkOribos:SetOwner(UIParent, "ANCHOR_NONE")
-	NPClinkOribos:SetHyperlink(("unit:Creature-0-0-0-0-%d"):format(id))
-    local name      = _G["NPClinkOribosTextLeft1"]:GetText()
-    local sublabel  = _G["NPClinkOribosTextLeft2"]:GetText()
+	NPClinkValdrakken:SetOwner(UIParent, "ANCHOR_NONE")
+	NPClinkValdrakken:SetHyperlink(("unit:Creature-0-0-0-0-%d"):format(id))
+    local name      = _G["NPClinkValdrakkenTextLeft1"]:GetText()
+    local sublabel  = _G["NPClinkValdrakkenTextLeft2"]:GetText()
     return name, sublabel
 end
 
