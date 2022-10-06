@@ -134,6 +134,7 @@ L["handler_context_menu_hide_node"] = "Verstecke diesen Punkt"
 --============================================TOOLTIPS============================================--
 
 L["handler_tooltip_requires"] = "Benötigt"
+L["handler_tooltip_requires_level"] = "Benötigt min. Spielerlevel"
 L["handler_tooltip_data"] = "DATEN ABRUFEN..."
 L["handler_tooltip_quest"] = "Freigeschaltet mit der Quest"
 
@@ -146,6 +147,7 @@ L["Mailbox"] = "Briefkasten"
 L["Portal to Orgrimmar"] = "Portal nach Orgrimmar"
 L["Portal to Stormwind"] = "Portal nach Sturmwind"
 L["Rostrum of Transformation"] = "Podium der Transformation"
+L["Teleport to Seat of the Aspects"] = ""
 L["Visage of True Self"] = "Angesicht des Selbst"
 
 end

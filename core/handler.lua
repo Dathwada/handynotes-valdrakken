@@ -24,6 +24,7 @@ local constantsicon = private.constants.icon
 ----------------------------------------------------------------------------------------------------
 
 local requires          = L["handler_tooltip_requires"]
+local RequiresPlayerLvl = L["handler_tooltip_requires_level"]
 local RequiresQuest     = L["handler_tooltip_quest"]
 local RetrievingData    = L["handler_tooltip_data"]
 
@@ -142,6 +143,9 @@ local function SetTooltip(tooltip, point)
         end
         if (point.note) then
             tooltip:AddLine("("..point.note..")")
+        end
+        if (point.level and UnitLevel("player") < point.level) then
+            tooltip:AddLine(RequiresPlayerLvl..": "..point.level, 1) -- red
         end
         if (point.quest and not IsQuestCompleted(point.quest)) then
             if (C_QuestLog.GetTitleForQuestID(point.quest) ~= nil) then

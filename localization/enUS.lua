@@ -101,7 +101,7 @@ L["Both"] = true
 L["config_picons"] = "Show profession icons for:"
 L["config_picons_vendor_desc"] = "Show profession icons for vendors instead of the vendor icons."
 L["config_picons_trainer_desc"] = "Show profession icons for trainers instead of the trainer icons."
-L["config_use_old_picons"] = "Show the old profession symbols"
+L["config_use_old_picons"] = "Show the old profession icons"
 L["config_use_old_picons_desc"] = "Show the old profession icons again instead of the new ones (before Dragonflight)."
 
 L["config_restore_nodes"] = "Restore hidden nodes"
@@ -134,6 +134,7 @@ L["handler_context_menu_hide_node"] = "Hide this node"
 --============================================TOOLTIPS============================================--
 
 L["handler_tooltip_requires"] = "Requires"
+L["handler_tooltip_requires_level"] = "Requires at least player level"
 L["handler_tooltip_data"] = "RETRIEVING DATA..."
 L["handler_tooltip_quest"] = "Unlocked with quest"
 
@@ -146,6 +147,7 @@ L["Mailbox"] = true
 L["Portal to Orgrimmar"] = true
 L["Portal to Stormwind"] = true
 L["Rostrum of Transformation"] = true
+L["Teleport to Seat of the Aspects"] = true
 L["Visage of True Self"] = true
 
 end

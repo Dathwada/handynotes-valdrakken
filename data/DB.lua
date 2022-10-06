@@ -45,9 +45,9 @@ DB.points = {
 
 
         -- The Seat of the Aspects
-        [56603821] = { icon="portal", label=PtoOG, note=Durotar, faction="Horde" }, -- DONE3 , quest=60151
-        [59834172] = { icon="portal", label=PtoSW, note=ElwynnForest, faction="Alliance" }, -- DONE3 , quest=60151
-        [61963208] = { icon="tpplatform", label="Teleport to Seat of the Aspects" }, -- DONE3 Level 64 required
+        [56603821] = { icon="portal", label=PtoOG, note=Durotar, faction="Horde" }, -- DONE3 , quest=?, level=?
+        [59834172] = { icon="portal", label=PtoSW, note=ElwynnForest, faction="Alliance" }, -- DONE3 , quest=?, level=?
+        [61963208] = { icon="tpplatform", label=L["Teleport to Seat of the Aspects"], level=64 }, -- DONE3
 
         -- Banker
         [61085510] = { icon="banker", npc=186794 }, -- DONE3 Numernormi
