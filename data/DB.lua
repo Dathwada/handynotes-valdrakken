@@ -31,148 +31,147 @@ private.DB = DB
 DB.points = {
     [2112] = { -- Valdrakken
 
+        [42365930] = { icon = "auctioneer", npc = 185714 }, -- Imporigo -- MARK
+        [42405995] = { icon = "auctioneer", npc = 197911 }, -- Antiqdormi -- MARK
+        [42626047] = { icon = "auctioneer", npc = 188661 }, -- Expordira -- MARK
 
-        -- Azure Archives Annex
+        [45565906] = { icon = "mail", label = mailbox },
+        [48445104] = { icon = "mail", label = mailbox },
+
+        [73975645] = { icon = "void", npc = 185689 }, -- Vaultkeeper Aleer
+        [74485605] = { icon = "transmogrifier", npc = 185570 }, -- Warpweaver Dayelis
+
+        [44046794] = { icon = "flightmaster", npc = 193321 }, -- Aluri
+
+        [46677895] = { icon = "stablemaster", npc = 185561 }, -- Kaestrasz
+        [48298294] = { icon = "vendor", npc = 193029 }, -- Lysindra PET SUPPLIES
+
+        [27264736] = { icon = "trainer", npc = 193364 }, -- Lithragosa DRAGONRIDING
+        [25835076] = { icon = "trainer", npc = 190839 }, -- Glensera TRANSFORMATION
+        [25045064] = { icon = "rostrum", label = L["Rostrum of Transformation"] },
+
+        [25563355] = { icon = "anvil", npc = 196637 }, -- Tethalash
+        [26064004] = { icon = "vendor", npc = 195768 }, -- Sorotis
+
+
         -- Cascade's Edge
-        -- Fallingwater Overlook
-        -- Gladiator's Refuge
-        -- Little Scales Daycare
-        -- The Black Market
-        -- The Parting Glass
-        -- The Ruby Feast
-        -- The Victorious Visage
+        [39898648] = { icon = "vendor", npc = 197080 }, -- Cadrestrasz
 
+
+        -- Gladiator's Refuge
+        [43064241] = { icon = "vendor", npc = 197553 }, -- Fieldmaster Emberath
+        [43374251] = { icon = "anvil", npc = 196191 }, -- Malicia
+
+
+        -- Little Scales Daycare
+        [10425826] = { icon = "vendor", npc = 185563 }, -- Jyhanna -- MARK
+        -- [12895714] = { icon="vendor", npc=182082 }, -- Agapanthus -- MARK
+
+
+        -- The Artisan's Market
+        -- Alchemy
+        [36387171] = { icon = "trainer", npc = 185545, profession = 171, picon = "alchemy" }, -- Conflago
+        -- Alchemy and Inscription
+        [36006796] = { icon = "vendor", npc = 185569 }, -- Gohfyrr
+        -- Enchanting
+        [30806081] = { icon = "vendor", npc = 198587, profession = 333, picon = "enchanting" }, -- Andoris
+        [31066137] = { icon = "trainer", npc = 193744, profession = 333, picon = "enchanting" }, -- Soragosa
+        -- Fishing, profession=356
+        [43477500] = { icon = "vendor", npc = 187783, picon = "fishing" }, -- Pakak
+        [44837473] = { icon = "trainer", npc = 185359, picon = "fishing" }, -- Toklo
+        -- Herbalism
+        [37376687] = { icon = "trainer", npc = 185549, profession = 182, picon = "herbalism" }, -- Agrikus
+        -- Inscription
+        [38847339] = { icon = "trainer", npc = 185540, profession = 773, picon = "inscription" }, -- Talendara
+        -- Juwe
+        [39066180] = { icon = "vendor", npc = 198586, profession = 755, picon = "jewelcrafting" }, -- Shakey Flatlap
+        [40786113] = { icon = "trainer", npc = 190094, profession = 755, picon = "jewelcrafting" }, -- Tuluradormi
+        -- Leatherworking
+        [28526132] = { icon = "trainer", npc = 185551, profession = 165, picon = "leatherworking" }, -- Hideshaper Koruz
+        [28776236] = { icon = "anvil", npc = 196960, profession = 165, picon = "leatherworking" }, -- Nehmeh
+        [28816099] = { icon = "anvil", npc = 195785, profession = 165, picon = "leatherworking" }, -- Samar
+        -- Skinning
+        [28536036] = { icon = "trainer", npc = 193846, profession = 393, picon = "skinning" }, -- Ralathor the Rugged
+        -- Tailor
+        [31966720] = { icon = "trainer", npc = 193649, profession = 197, picon = "tailoring" }, -- Threadfinder Fulafong
+        [32126626] = { icon = "trainer", npc = 195850, profession = 197, picon = "tailoring" }, -- Threadfinder Pax
+
+        -- [28796431] = { icon="bubble", npc=194480 }, -- Nomi
+        [28826631] = { icon = "vendor", npc = 196975 }, -- Tonko Trickybits
+        [29006488] = { icon = "vendor", npc = 196729 }, -- Gorgonzormu
+        [29886737] = { icon = "vendor", npc = 195788 }, -- Nallu
+        [31286972] = { icon = "vendor", npc = 195783 }, -- Clerk Nemora
+        [31626932] = { icon = "vendor", npc = 195782 }, -- Giera
+        [35056314] = { icon = "bubble", npc = 190084 }, -- Scaravelle CRAFTING ORDERS
+        [35425910] = { icon = "vendor", npc = 194057 }, -- Rabul
+        [35455968] = { icon = "mail", label = mailbox },
+        [36436280] = { icon = "vendor", npc = 191000 }, -- Dothenos
+
+
+        -- The Bronze Enclave
+        -- [84075357] = { icon="bubble", label=""Engine of Innovation", quest=70180 },
+
+
+        -- The Emerals Encalve
+        [74506309] = { icon = "vendor", npc = 189197 }, -- Groundskeeper Kama
+
+        [58225436] = { icon = "guildvault", label = guildvault },
+        [60015392] = { icon = "banker", npc = 185572 }, -- Vekkalis
+        [60575701] = { icon = "banker", npc = 189168 }, -- Aeoreon
+        [61085510] = { icon = "banker", npc = 186794 }, -- Numernormi
+
+
+        -- The Obsidian Enclave
+        -- Blacksmith
+        [36565063] = { icon = "anvil", npc = 193659, profession = 164, picon = "blacksmithing" }, -- Provisioner Thom
+        [36944709] = { icon = "trainer", npc = 185546, profession = 164, picon = "blacksmithing" }, -- Metalshaper Kuroko
+        -- Engineer
+        [41514881] = { icon = "vendor", npc = 198580, profession = 202, picon = "engineering" }, -- Kognir
+        [42244863] = { icon = "trainer", npc = 185548, profession = 202, picon = "engineering" }, -- Clinkyclick Shatterboom
+        -- Mining
+        [38875149] = { icon = "trainer", npc = 185553, profession = 186, picon = "mining" }, -- Sekita the Burrower
+
+        [35954970] = { icon = "vendor", npc = 195770 }, -- Armorsmith Terisk -- MARK
+        [36165194] = { icon = "vendor", npc = 195769 }, -- Weaponsmith Koref
+        [37654949] = { icon = "mail", label = mailbox },
+
+
+        -- The Patting Glass
+        [72504716] = { icon = "innkeeper", npc = 197574 }, -- Mairadormi
+
+
+        -- The Roasted Ram
+        [46934566] = { icon = "vendor", npc = 188747 }, -- Kitror
+        [47444620] = { icon = "innkeeper", npc = 185562 }, -- Tithris
+        -- Cooking, profession=185
+        [46464620] = { icon = "trainer", npc = 185556, picon = "cooking" }, -- Erugosa
+
+
+        -- The Ruby Enclave
+        [57482359] = { icon = "vendor", npc = 198441 }, -- Gardener Cereus
+        -- Alchemy
+        [60811741] = { icon = "vendor", npc = 198438, profession = 171, picon = "alchemy" }, -- Gerdener Rafalsia WALKS AROUND
+
+
+        -- The Sapphire Enclave
+        [38093772] = { icon = "vendor", npc = 196516 }, -- Mythressa
+        [38443674] = { icon = "vendor", npc = 196598 }, -- Rethelshi
 
 
         -- The Seat of the Aspects
-        [56603821] = { icon="portal", label=PtoOG, note=Durotar, faction="Horde" }, -- DONE3 , quest=?, level=?
-        [59834172] = { icon="portal", label=PtoSW, note=ElwynnForest, faction="Alliance" }, -- DONE3 , quest=?, level=?
-        [61963208] = { icon="tpplatform", label=L["Teleport to Seat of the Aspects"], level=64 }, -- DONE3
-        [59204283] = { icon="portaltrainer", npc=198895 }, -- Alregosa -- MARK
-
-        -- Banker
-        [61085510] = { icon="banker", npc=186794 }, -- DONE3 Numernormi
-        [60575701] = { icon="banker", npc=189168 }, -- DONE3 Aeoreon
-        [60015392] = { icon="banker", npc=185572 }, -- DONE3 Vekkalis
-        [58225436] = { icon="guildvault", label=guildvault }, -- DONE3
-
-        [35455968] = { icon="mail", label=mailbox }, -- DONE3
-        [37654949] = { icon="mail", label=mailbox }, -- DONE3
-        [45565906] = { icon="mail", label=mailbox }, -- DONE3
-        [48445104] = { icon="mail", label=mailbox }, -- DONE3
+        [56603821] = { icon = "portal", label = PtoOG, note = Durotar, faction = "Horde" }, -- , quest=?, level=?
+        [59834172] = { icon = "portal", label = PtoSW, note = ElwynnForest, faction = "Alliance" }, -- , quest=?, level=?
+        [61963208] = { icon = "tpplatform", label = L["Teleport to Seat of the Aspects"], level = 64 },
+        [58173499] = { icon = "vendor", npc = 193015 }, -- Unatos
+        [59204283] = { icon = "portaltrainer", npc = 198895 }, -- Alregosa -- MARK
 
 
-        [47444620] = { icon="innkeeper", npc=185562 }, -- DONE3 Tithris
-        [46934566] = { icon="vendor", npc=188747 }, -- DONE3 Kitror
+        -- The Victorious Visage
+        [30334817] = { icon = "barber", label = L["Visage of True Self"] },
 
-        [42365930] = { icon="auctioneer", npc=185714 }, -- DONE3 Imporigo -- MARK
-        [42405995] = { icon="auctioneer", npc=197911 }, -- DONE3 Antiqdormi -- MARK
-        [42626047] = { icon="auctioneer", npc=188661 }, -- DONE3 Expordira -- MARK
 
-        -- Juwe
-        [39066180] = { icon="vendor", npc=198586, profession=755, picon="jewelcrafting" }, -- DONE3 Shakey Flatlap
-        [40786113] = { icon="trainer", npc=190094, profession=755, picon="jewelcrafting" }, -- DONE3 Tuluradormi
-        -- Engineer
-        [41514881] = { icon="vendor", npc=198580, profession=202, picon="engineering" }, -- DONE3 Kognir
-        [42244863] = { icon="trainer", npc=185548, profession=202, picon="engineering" }, -- DONE3 Clinkyclick Shatterboom
-        -- Alchemy and Inscription
-        [36006796] = { icon="vendor", npc=185569 }, -- DONE3 Gohfyrr
-        -- Alchemy
-        [60811741] = { icon="vendor", npc=198438, profession=171, picon="alchemy" }, -- DONE3 Gerdener Rafalsia
-        [36387171] = { icon="trainer", npc=185545, profession=171, picon="alchemy" }, -- DONE3 Conflago
-        -- Inscription
-        [38847339] = { icon="trainer", npc=185540, profession=773, picon="inscription" }, -- DONE3 Talendara
-        -- Herbalism
-        [37376687] = { icon="trainer", npc=185549, profession=182, picon="herbalism" }, -- DONE3 Agrikus
-        -- Mining
-        [38875149] = { icon="trainer", npc=185553, profession=186, picon="mining" }, -- DONE3 Sekita the Burrower
-        -- Blacksmith
-        [36565063] = { icon="anvil", npc=193659, profession=164, picon="blacksmithing" }, -- DONE3 Provisioner Thom
-        [36944709] = { icon="trainer", npc=185546, profession=164, picon="blacksmithing" }, -- DONE3 Metalshaper Kuroko
-        -- Skinning
-        [28536036] = { icon="trainer", npc=193846, profession=393, picon="skinning" }, -- DONE3 Ralathor the Rugged
-        -- Leatherworking
-        [28816099] = { icon="anvil", npc=195785, profession=165, picon="leatherworking" }, -- DONE3 Samar
-        [28776236] = { icon="anvil", npc=196960, profession=165, picon="leatherworking" }, -- DONE3 Nehmeh
-        [28526132] = { icon="trainer", npc=185551, profession=165, picon="leatherworking" }, -- DONE3 Hideshaper Koruz
-        -- Tailor
-        [32126626] = { icon="trainer", npc=195850, profession=197, picon="tailoring" }, -- DONE3 Threadfinder Pax
-        [31966720] = { icon="trainer", npc=193649, profession=197, picon="tailoring" }, -- DONE3 Threadfinder Fulafong
-        -- Cooking, profession=185
-        [46464620] = { icon="trainer", npc=185556, picon="cooking" }, -- DONE3 Erugosa
-        -- Fishing, profession=356
-        [43477500] = { icon="vendor", npc=187783, picon="fishing" }, -- DONE3 Pakak
-        [44837473] = { icon="trainer", npc=185359, picon="fishing" }, -- DONE3 Toklo
-        -- Enchanting
-        [30806081] = { icon="vendor", npc=198587, profession=333, picon="enchanting" }, -- DONE3 Andoris
-        [31066137] = { icon="trainer", npc=193744, profession=333, picon="enchanting" }, -- DONE3 Soragosa
-
-        -- [26735732] = { icon="vendor", npc=196805 }, -- DONE3 Ryen Levenson WALKS AROUND
-        [27264736] = { icon="trainer", npc=193364 }, -- DONE3 Lithragosa DRAGONRIDING
-        [25835076] = { icon="trainer", npc=190839 }, -- DONE3 Glensera TRANSFORMATION
-        [25045064] = { icon="rostrum", label=L["Rostrum of Transformation"] }, -- DONE3
-
-        [35954970] = { icon="vendor", npc=195770 }, -- DONE3 Armorsmith Terisk -- MARK
-        [36165194] = { icon="vendor", npc=195769 }, -- DONE3 Weaponsmith Koref
-
-        [43374251] = { icon="anvil", npc=196191 }, -- DONE3 Malicia
-        [43064241] = { icon="vendor", npc=197553 }, --DONE3 Fieldmaster Emberath
-
-        [38093772] = { icon="vendor", npc=196516 }, -- DONE3 Mythressa
-        [38443674] = { icon="vendor", npc=196598 }, -- DONE3 Rethelshi
-
-        [46677895] = { icon="stablemaster", npc=185561 }, -- DONE3 Kaestrasz
-        [58173499] = { icon="vendor", npc=193015 }, -- DONE3 Unatos
-
-        [57482359] = { icon="vendor", npc=198441 }, -- DONE3 Gardener Cereus
-
-        [25563355] = { icon="anvil", npc=196637 }, -- DONE3 Tethalash
-        [22623065] = { icon="innkeeper", npc=196640 }, -- DONE3 Yzinia INNKEEPER BUGGY
-        [26064004] = { icon="vendor", npc=195768 }, -- DONE 3 Sorotis
-        -- [34833584] = { icon="vendor", npc=187788 }, -- DONE3 Tukkuttok WALKS AROUND
-
-        -- [12895714] = { icon="vendor", npc=182082 }, -- DONE3 Agapanthus -- MARK
-        [48298294] = { icon="vendor", npc=193029 }, -- DONE3 Lysindra PET SUPPLIES
-        [35425910] = { icon="vendor", npc=194057 }, -- DONE3 Rabul
-
-        [10425826] = { icon="vendor", npc=185563 }, -- DONE3 Jyhanna -- MARK
-
-        [30334817] = { icon="barber", label=L["Visage of True Self"] }, -- DONE3
-
-        -- [20254911] = { icon="auctioneer", npc=189676 }, -- DONE3 Madam Goya
-        -- [19215030] = { icon="auctioneer", npc=189644 }, -- DONE3 MS. Xiulan
-
-        [73975645] = { icon="void", npc=185689 }, -- DONE3 Vaultkeeper Aleer
-        [74485605] = { icon="transmogrifier", npc=185570 }, -- DONE3 Warpweaver Dayelis
-        [72504716] = { icon="innkeeper", npc=197574 }, -- DONE3 Mairadormi
-        [74506309] = { icon="vendor", npc=189197 }, -- Groundskeeper Kama
-
-        [31626932] = { icon="vendor", npc=195782 }, -- DONE3 Giera
-        [31286972] = { icon="vendor", npc=195783 }, -- DONE3 Clerk Nemora
-        [29886737] = { icon="vendor", npc=195788 }, -- DONE3 Nallu
-        [28826631] = { icon="vendor", npc=196975 }, -- DONE3 Tonko Trickybits
-        [29006488] = { icon="vendor", npc=196729 }, -- DONE3 Gorgonzormu
-        -- [28796431] = { icon="bubble", npc=194480 }, -- DONE3 Nomi
-
-        [36436280] = { icon="vendor", npc=191000 }, -- DONE3 Dothenos
-
-        [44046794] = { icon="flightmaster", npc=193321 }, -- DONE3 Aluri
-        [35056314] = { icon="bubble", npc=190084 }, -- DONE3 Scaravelle CRAFTING ORDERS
-
-        [39898648] = { icon="vendor", npc=197080 }, -- Cadrestrasz
-
-        -- [39325386] = { icon="bubble", npc=189535 }, -- ? Blacktalon Watcher
-        -- [33606320] = { icon="bubble", npc=185542 }, -- ? Mimzy Sprazzlerock
-        -- [39405950] = { icon="bubble", npc=194418 }, -- ? Norilune
-        -- [38203760] = { icon="bubble", npc=195768 }, -- ? Sorotis
-        -- [34002790] = { icon="bubble", npc=187647 }, -- ? Libergo
-        -- [35102790] = { icon="bubble", npc=189973 }, -- ? Kemora
-        -- [61401180] = { icon="bubble", npc=189479 }, -- ? Rumiastrasza
-        -- [68705640] = { icon="bubble", npc=189222 }, -- ? Wistera
-        -- [72706580] = { icon="bubble", npc=192522 }, -- ? Thalendra
-        -- [77106670] = { icon="bubble", npc=189364 }, -- ? Tender Xina
-        -- [74006250] = { icon="bubble", npc=189197 }, -- ? Groundskeeper Kama
-        -- [84075357] = { icon="bubble", label=""Engine of Innovation", quest=70180 },
+        -- Weyrnrest
+        [22623065] = { icon = "innkeeper", npc = 196640 }, -- Yzinia INNKEEPER BUGGY
 
     }
 
