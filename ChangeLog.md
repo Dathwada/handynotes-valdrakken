@@ -1,5 +1,11 @@
 ## Revision History:
 
+#### v0.3 (Oktober 08, 2022)
+-------------------------------
+* Fixed NPC names - Beta build 10.0.2.45969 broke creature scanning
+* Added level requirement for Teleport to Seat of the Aspects
+* Background changes
+
 #### v0.2 (Oktober 05, 2022)
 -------------------------------
 * Added new dragonflight profession icons
