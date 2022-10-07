@@ -26,9 +26,11 @@ L["config_innkeeper_desc"] = "여관주인 위치를 표시합니다."
 L["config_mail"] = "우편함"
 L["config_mail_desc"] = "우편함 위치를 표시합니다."
 L["config_onlymytrainers"] = "내 전문 기술의 기술 전문가와 상인만 표시"
-L["config_onlymytrainers_desc"] = [=[내가 배운 전문 기술의 기술 전문가 및 상인만 표시합니다.
+L["config_onlymytrainers_desc"] = [[
+내가 배운 전문 기술의 기술 전문가 및 상인만 표시합니다.
 
-|cFFFF0000주의: 두 개의 전문 기술을 배웠을 경우에만 적용됩니다.|r ]=]
+|cFFFF0000주의: 두 개의 전문 기술을 배웠을 경우에만 적용됩니다.|r
+]]
 L["config_others"] = "기타"
 L["config_others_desc"] = "다른 모든 POI 들을 표시합니다."
 L["config_picons"] = "전문 기술 아이콘으로 표시:"
