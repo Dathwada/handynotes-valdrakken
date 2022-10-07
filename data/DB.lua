@@ -32,15 +32,15 @@ DB.points = {
     [2112] = { -- Valdrakken
 
 
-    -- Azure Archives Annex
-    -- Cascade's Edge
-    -- Fallingwater Overlook
-    -- Gladiator's Refuge
-    -- Little Scales Daycare
-    -- The Black Market
-    -- The Parting Glass
-    -- The Ruby Feast
-    -- The Victorious Visage
+        -- Azure Archives Annex
+        -- Cascade's Edge
+        -- Fallingwater Overlook
+        -- Gladiator's Refuge
+        -- Little Scales Daycare
+        -- The Black Market
+        -- The Parting Glass
+        -- The Ruby Feast
+        -- The Victorious Visage
 
 
 
@@ -48,6 +48,7 @@ DB.points = {
         [56603821] = { icon="portal", label=PtoOG, note=Durotar, faction="Horde" }, -- DONE3 , quest=?, level=?
         [59834172] = { icon="portal", label=PtoSW, note=ElwynnForest, faction="Alliance" }, -- DONE3 , quest=?, level=?
         [61963208] = { icon="tpplatform", label=L["Teleport to Seat of the Aspects"], level=64 }, -- DONE3
+        [59204283] = { icon="portaltrainer", npc=198895 }, -- Alregosa -- MARK
 
         -- Banker
         [61085510] = { icon="banker", npc=186794 }, -- DONE3 Numernormi
@@ -64,9 +65,9 @@ DB.points = {
         [47444620] = { icon="innkeeper", npc=185562 }, -- DONE3 Tithris
         [46934566] = { icon="vendor", npc=188747 }, -- DONE3 Kitror
 
-        [42365930] = { icon="auctioneer", npc=185714, sublabel=L["config_auctioneer"] }, -- DONE3 Imporigo
-        [42405995] = { icon="auctioneer", npc=197912, sublabel=L["config_auctioneer"] }, -- DONE3 Antiqdormi
-        [42626047] = { icon="auctioneer", npc=188661, sublabel=L["config_auctioneer"] }, -- DONE3 Expordira
+        [42365930] = { icon="auctioneer", npc=185714 }, -- DONE3 Imporigo -- MARK
+        [42405995] = { icon="auctioneer", npc=197911 }, -- DONE3 Antiqdormi -- MARK
+        [42626047] = { icon="auctioneer", npc=188661 }, -- DONE3 Expordira -- MARK
 
         -- Juwe
         [39066180] = { icon="vendor", npc=198586, profession=755, picon="jewelcrafting" }, -- DONE3 Shakey Flatlap
@@ -106,12 +107,12 @@ DB.points = {
         [30806081] = { icon="vendor", npc=198587, profession=333, picon="enchanting" }, -- DONE3 Andoris
         [31066137] = { icon="trainer", npc=193744, profession=333, picon="enchanting" }, -- DONE3 Soragosa
 
-        [26735732] = { icon="vendor", npc=196805 }, -- DONE3 Ryen Levenson
+        -- [26735732] = { icon="vendor", npc=196805 }, -- DONE3 Ryen Levenson WALKS AROUND
         [27264736] = { icon="trainer", npc=193364 }, -- DONE3 Lithragosa DRAGONRIDING
         [25835076] = { icon="trainer", npc=190839 }, -- DONE3 Glensera TRANSFORMATION
         [25045064] = { icon="rostrum", label=L["Rostrum of Transformation"] }, -- DONE3
 
-        [35954970] = { icon="vendor", npc=195770 }, -- DONE3 Armorsmith Terisk
+        [35954970] = { icon="vendor", npc=195770 }, -- DONE3 Armorsmith Terisk -- MARK
         [36165194] = { icon="vendor", npc=195769 }, -- DONE3 Weaponsmith Koref
 
         [43374251] = { icon="anvil", npc=196191 }, -- DONE3 Malicia
@@ -130,13 +131,13 @@ DB.points = {
         [26064004] = { icon="vendor", npc=195768 }, -- DONE 3 Sorotis
         -- [34833584] = { icon="vendor", npc=187788 }, -- DONE3 Tukkuttok WALKS AROUND
 
-        -- [12895714] = { icon="vendor", npc=182082 }, -- DONE3 Agapanthus
+        -- [12895714] = { icon="vendor", npc=182082 }, -- DONE3 Agapanthus -- MARK
         [48298294] = { icon="vendor", npc=193029 }, -- DONE3 Lysindra PET SUPPLIES
         [35425910] = { icon="vendor", npc=194057 }, -- DONE3 Rabul
 
-        [10425826] = { icon="vendor", npc=185563, sublabel=L["Expert Pet Trainer"] }, -- DONE3 Jyhanna
+        [10425826] = { icon="vendor", npc=185563 }, -- DONE3 Jyhanna -- MARK
 
-        [30354590] = { icon="barber", label=L["Visage of True Self"] }, -- DONE3
+        [30334817] = { icon="barber", label=L["Visage of True Self"] }, -- DONE3
 
         -- [20254911] = { icon="auctioneer", npc=189676 }, -- DONE3 Madam Goya
         -- [19215030] = { icon="auctioneer", npc=189644 }, -- DONE3 MS. Xiulan
@@ -144,6 +145,7 @@ DB.points = {
         [73975645] = { icon="void", npc=185689 }, -- DONE3 Vaultkeeper Aleer
         [74485605] = { icon="transmogrifier", npc=185570 }, -- DONE3 Warpweaver Dayelis
         [72504716] = { icon="innkeeper", npc=197574 }, -- DONE3 Mairadormi
+        [74506309] = { icon="vendor", npc=189197 }, -- Groundskeeper Kama
 
         [31626932] = { icon="vendor", npc=195782 }, -- DONE3 Giera
         [31286972] = { icon="vendor", npc=195783 }, -- DONE3 Clerk Nemora
@@ -157,6 +159,8 @@ DB.points = {
         [44046794] = { icon="flightmaster", npc=193321 }, -- DONE3 Aluri
         [35056314] = { icon="bubble", npc=190084 }, -- DONE3 Scaravelle CRAFTING ORDERS
 
+        [39898648] = { icon="vendor", npc=197080 }, -- Cadrestrasz
+
         -- [39325386] = { icon="bubble", npc=189535 }, -- ? Blacktalon Watcher
         -- [33606320] = { icon="bubble", npc=185542 }, -- ? Mimzy Sprazzlerock
         -- [39405950] = { icon="bubble", npc=194418 }, -- ? Norilune
@@ -168,11 +172,7 @@ DB.points = {
         -- [72706580] = { icon="bubble", npc=192522 }, -- ? Thalendra
         -- [77106670] = { icon="bubble", npc=189364 }, -- ? Tender Xina
         -- [74006250] = { icon="bubble", npc=189197 }, -- ? Groundskeeper Kama
-
-
-
-
-
+        -- [84075357] = { icon="bubble", label=""Engine of Innovation", quest=70180 },
 
     }
 
