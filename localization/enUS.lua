@@ -142,7 +142,6 @@ L["handler_tooltip_quest"] = "Unlocked with quest"
 ----------------------------------------------DATABASE----------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
-L["Expert Pet Trainer"] = true
 L["Mailbox"] = true
 L["Portal to Orgrimmar"] = true
 L["Portal to Stormwind"] = true

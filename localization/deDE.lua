@@ -142,12 +142,13 @@ L["handler_tooltip_quest"] = "Freigeschaltet mit der Quest"
 ----------------------------------------------DATABASE----------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
-L["Expert Pet Trainer"] = "Tierausbildungsexpertin"
 L["Mailbox"] = "Briefkasten"
 L["Portal to Orgrimmar"] = "Portal nach Orgrimmar"
 L["Portal to Stormwind"] = "Portal nach Sturmwind"
 L["Rostrum of Transformation"] = "Podium der Transformation"
-L["Teleport to Seat of the Aspects"] = ""
+L["Teleport to Seat of the Aspects"] = "Teleport zum Sitz der Aspekte"
 L["Visage of True Self"] = "Angesicht des Selbst"
+
+L["Expert Pet Trainer"] = "Tierausbildungsexpertin"
 
 end

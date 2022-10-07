@@ -32,12 +32,13 @@ local RetrievingData    = L["handler_tooltip_data"]
 --------------------------------------------GET NPC NAMES-------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
-local NPClinkValdrakken = CreateFrame("GameTooltip", "NPClinkValdrakken", UIParent, "GameTooltipTemplate")
-local function GetCreatureNamebyID(id)
-	NPClinkValdrakken:SetOwner(UIParent, "ANCHOR_NONE")
-	NPClinkValdrakken:SetHyperlink(("unit:Creature-0-0-0-0-%d"):format(id))
-    local name      = _G["NPClinkValdrakkenTextLeft1"]:GetText()
-    local sublabel  = _G["NPClinkValdrakkenTextLeft2"]:GetText()
+local function GetCreatureNameByID(id)
+    if id == nil then return end
+    if private.NPCS.npcs[id] == nil then error(id .. " not found") end
+
+    local name = private.NPCS.npcs[id].name or UNKNOWN
+    local sublabel = private.NPCS.npcs[id].sublabel or ""
+
     return name, sublabel
 end
 
@@ -106,7 +107,7 @@ end
 local GetPointInfo = function(point)
     local icon
     if (point) then
-        local label = GetCreatureNamebyID(point.npc) or point.label or UNKNOWN
+        local label = GetCreatureNameByID(point.npc) or point.label or UNKNOWN
         if (point.icon == "portal" and point.quest and not IsQuestCompleted(point.quest)) then
             icon = private.constants.icon["MagePortalHorde"]
         else
@@ -128,13 +129,11 @@ local function SetTooltip(tooltip, point)
 
     if (point) then
         if (point.npc) then
-            local name, sublabel = GetCreatureNamebyID(point.npc)
+            local name, sublabel = GetCreatureNameByID(point.npc)
             if (name) then
                 tooltip:AddLine(name)
             end
-            if (point.sublabel) then
-                tooltip:AddLine(point.sublabel,1,1,1)
-            elseif (sublabel) then
+            if (sublabel) then
                 tooltip:AddLine(sublabel,1,1,1)
             end
         end

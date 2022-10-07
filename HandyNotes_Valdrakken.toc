@@ -26,3 +26,4 @@ core\dev.lua
 
 # DATABASE
 data\DB.lua
+data\NPCS.lua
