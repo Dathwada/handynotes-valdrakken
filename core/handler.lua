@@ -10,6 +10,7 @@ local HandyNotes = LibStub("AceAddon-3.0"):GetAddon("HandyNotes")
 local HBD = LibStub('HereBeDragons-2.0')
 local L = LibStub("AceLocale-3.0"):GetLocale(FOLDER_NAME)
 
+private.DATA = {}
 private.locale = L
 
 addon.constants = private.constants
@@ -18,6 +19,7 @@ _G.HandyNotes_Valdrakken = addon
 
 local IsQuestCompleted = C_QuestLog.IsQuestFlaggedCompleted
 local constantsicon = private.constants.icon
+local DATA = private.DATA
 
 ----------------------------------------------------------------------------------------------------
 -----------------------------------------------LOCALS-----------------------------------------------
@@ -34,10 +36,10 @@ local RetrievingData    = L["handler_tooltip_data"]
 
 local function GetCreatureNameByID(id)
     if id == nil then return end
-    if private.NPCS.npcs[id] == nil then error(id .. " not found") end
+    if DATA.npcs[id] == nil then error("NPC " .. id .. " not found") end
 
-    local name = private.NPCS.npcs[id].name or UNKNOWN
-    local sublabel = private.NPCS.npcs[id].sublabel or ""
+    local name = DATA.npcs[id].name or UNKNOWN
+    local sublabel = DATA.npcs[id].sublabel or ""
 
     return name, sublabel
 end
