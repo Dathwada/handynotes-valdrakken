@@ -118,25 +118,9 @@ constants.icongroup = {
     "void"
 }
 
-local left, right, top, bottom = C_Minimap.GetObjectIconTextureCoords(4772) --MagePortalAlliance
-local left2, right2, top2, bottom2 = C_Minimap.GetObjectIconTextureCoords(4773) --MagePortalHorde
-
 constants.icon = {
-    portal = {
-        icon = [[Interface\MINIMAP\OBJECTICONSATLAS]],
-        tCoordLeft = left,
-        tCoordRight = right,
-        tCoordTop = top,
-        tCoordBottom = bottom,
-    },
-
-    MagePortalHorde = {
-        icon = [[Interface\MINIMAP\OBJECTICONSATLAS]],
-        tCoordLeft = left2,
-        tCoordRight = right2,
-        tCoordTop = top2,
-        tCoordBottom = bottom2,
-    },
+    portal          = "Interface\\AddOns\\"..FOLDER_NAME.."\\icons\\portal_blue",
+    portal_red      = "Interface\\AddOns\\"..FOLDER_NAME.."\\icons\\portal_red",
 
     -- npc/poi icons
     auctioneer      = "Interface\\MINIMAP\\TRACKING\\Auctioneer",
