@@ -36,7 +36,6 @@ private.DATA.npcs = {
     [189168] = { name = L["Aeoreon"], sublabel = L["Banker"] },
     [189197] = { name = L["Groundskeeper Kama"], sublabel = L["Dreamhare Herder"] },
     [189676] = { name = L["Madam Goya"], sublabel = L["Leader of the Black Market"] },
-    [190084] = { name = L["Scaravelle"], sublabel = L["Crafting Orders"] },
     [190094] = { name = L["Tuluradormi"], sublabel = L["Jewelcrafting Trainer"] },
     [190839] = { name = L["Glensera"], sublabel = L["Transformation Trainer"] },
     [191000] = { name = L["Dothenos"], sublabel = L["Trade Coordinator"] },

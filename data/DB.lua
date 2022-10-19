@@ -115,7 +115,7 @@ DB.points = {
         [29886737] = { icon = "vendor", npc = 195788 }, -- Nallu
         [31286972] = { icon = "vendor", npc = 195783 }, -- Clerk Nemora
         [31626932] = { icon = "vendor", npc = 195782 }, -- Giera
-        [35056314] = { icon = "bubble", npc = 190084 }, -- Scaravelle CRAFTING ORDERS
+        [34536254] = { icon = "craftingorders", label = L["Crafting Orders"] }, -- CRAFTING ORDERS
         [35425910] = { icon = "vendor", npc = 194057 }, -- Rabul
         [35455968] = { icon = "mail", label = mailbox },
         [36436280] = { icon = "vendor", npc = 191000 }, -- Dothenos

@@ -29,8 +29,8 @@ L["config_banker_desc"] = "Zeigt die Positionen der Bankiers an."
 L["config_barber"] = "Barbier"
 L["config_barber_desc"] = "Zeigt die Position des Barbiers an."
 
-L["config_bubble"] = "Handwerksauftrag"
-L["config_bubble_desc"] = "Zeigt die Position des NSC für Handwerksaufträge an."
+L["config_craftingorders"] = "Handwerksaufträge"
+L["config_craftingorders_desc"] = "Zeigt die Position der NSCs für Handwerksaufträge an."
 
 L["config_flightmaster"] = "Flugmeister"
 L["config_flightmaster_desc"] = "Zeigt die Position des Flugmeisters an."
@@ -142,6 +142,7 @@ L["handler_tooltip_quest"] = "Freigeschaltet mit der Quest"
 ----------------------------------------------DATABASE----------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
+L["Crafting Orders"] = "Handwerksaufträge"
 L["Mailbox"] = "Briefkasten"
 L["Portal to Dalaran"] = "Portal nach Dalaran"
 L["Portal to Jade Forest"] = "Portal zum Jadewald"

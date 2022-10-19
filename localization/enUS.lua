@@ -29,8 +29,8 @@ L["config_banker_desc"] = "Show the banker locations."
 L["config_barber"] = "Barber"
 L["config_barber_desc"] = "Show the barber location."
 
-L["config_bubble"] = "Crafting Order"
-L["config_bubble_desc"] = "Show the NPC for crafting orders location."
+L["config_craftingorders"] = "Crafting Orders"
+L["config_craftingorders_desc"] = "Show the crafting orders locations."
 
 L["config_flightmaster"] = "Flightmaster"
 L["config_flightmaster_desc"] = "Show the flightmaster location."
@@ -142,6 +142,7 @@ L["handler_tooltip_quest"] = "Unlocked with quest"
 ----------------------------------------------DATABASE----------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
+L["Crafting Orders"] = true
 L["Mailbox"] = true
 L["Portal to Dalaran"] = true
 L["Portal to Jade Forest"] = true

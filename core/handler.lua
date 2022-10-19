@@ -390,7 +390,7 @@ do
         if (point.icon == "auctioneer" and not private.db.show_auctioneer) then return false end
         if (point.icon == "banker" and not private.db.show_banker) then return false end
         if (point.icon == "barber" and not private.db.show_barber) then return false end
-        if (point.icon == "bubble" and not private.db.show_bubble) then return false end
+        if (point.icon == "craftingorders" and not private.db.show_craftingorders) then return false end
         if (point.icon == "flightmaster" and not private.db.show_flightmaster) then return false end
         if (point.icon == "greatvault" and not private.db.show_greatvault) then return false end
         if (point.icon == "guildvault" and not private.db.show_guildvault) then return false end
