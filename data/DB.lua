@@ -10,13 +10,24 @@ local L = private.locale
 ----------------------------------------------------------------------------------------------------
 
 local function GetMapNames(id1, id2)
-    return format("%s, %s", C_Map.GetMapInfo(id1).name, C_Map.GetMapInfo(id2).name)
+    if (id1 and id2) then
+        return format("%s, %s", C_Map.GetMapInfo(id1).name, C_Map.GetMapInfo(id2).name)
+    else
+        return C_Map.GetMapInfo(id1).name
+    end
 end
 
 local PtoOG = L["Portal to Orgrimmar"]
 local Durotar = GetMapNames(12, 1)
 local PtoSW = L["Portal to Stormwind"]
 local ElwynnForest = GetMapNames(13, 37)
+
+local PtoJadeForest = L["Portal to Jade Forest"]
+local Pandaria = GetMapNames(424)
+local PtoSMV = L["Portal to Shadowmoon Valley"]
+local Draenor = GetMapNames(572)
+local PtoDala = L["Portal to Dalaran"]
+local BrokenIsles = GetMapNames(619)
 
 local guildvault = L["config_guildvault"]
 local mailbox = L["Mailbox"]
@@ -37,6 +48,8 @@ DB.points = {
 
         [45565906] = { icon = "mail", label = mailbox },
         [48445104] = { icon = "mail", label = mailbox },
+
+        [53885502] = { icon = "portal", multilabel = { PtoJadeForest, PtoSMV, PtoDala }, multinote = { Pandaria, Draenor, BrokenIsles } },
 
         [73975645] = { icon = "void", npc = 185689 }, -- Vaultkeeper Aleer
         [74485605] = { icon = "transmogrifier", npc = 185570 }, -- Warpweaver Dayelis

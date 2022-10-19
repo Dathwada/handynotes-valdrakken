@@ -143,7 +143,10 @@ L["handler_tooltip_quest"] = "Unlocked with quest"
 ----------------------------------------------------------------------------------------------------
 
 L["Mailbox"] = true
+L["Portal to Dalaran"] = true
+L["Portal to Jade Forest"] = true
 L["Portal to Orgrimmar"] = true
+L["Portal to Shadowmoon Valley"] = true
 L["Portal to Stormwind"] = true
 L["Rostrum of Transformation"] = true
 L["Teleport to Seat of the Aspects"] = true

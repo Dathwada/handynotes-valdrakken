@@ -143,7 +143,10 @@ L["handler_tooltip_quest"] = "Freigeschaltet mit der Quest"
 ----------------------------------------------------------------------------------------------------
 
 L["Mailbox"] = "Briefkasten"
+L["Portal to Dalaran"] = "Portal nach Dalaran"
+L["Portal to Jade Forest"] = "Portal zum Jadewald"
 L["Portal to Orgrimmar"] = "Portal nach Orgrimmar"
+L["Portal to Shadowmoon Valley"] = "Portal ins Schattenmondtal"
 L["Portal to Stormwind"] = "Portal nach Sturmwind"
 L["Rostrum of Transformation"] = "Podium der Transformation"
 L["Teleport to Seat of the Aspects"] = "Teleport zum Sitz der Aspekte"

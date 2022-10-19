@@ -78,6 +78,7 @@ L["handler_tooltip_quest"] = "Открывается с помощью зада�
 L["handler_tooltip_requires"] = "Требуется"
 L["handler_tooltip_requires_level"] = "Требуется как минимум уровень игрока"
 L["Mailbox"] = "Почтовый ящик"
+L["Portal to Dalaran"] = "Портал в Даларан"
 L["Portal to Orgrimmar"] = "Портал в Оргриммар"
 L["Portal to Stormwind"] = "Портал в Штормград"
 L["TomTom"] = true

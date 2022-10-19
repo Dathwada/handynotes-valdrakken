@@ -130,7 +130,15 @@ L["handler_tooltip_quest"] = "解锁任务"
 ----------------------------------------------DATABASE----------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
-L["Portal to Orgrimmar"] = "奥格瑞玛传送门"
-L["Portal to Stormwind"] = "暴风城传送门"
+-- L["Crafting Orders"] = ""
 L["Mailbox"] = "邮箱"
+L["Portal to Dalaran"] = "通往达拉然"
+L["Portal to Jade Forest"] = "通往翡翠林"
+L["Portal to Orgrimmar"] = "奥格瑞玛传送门"
+-- L["Portal to Shadowmoon Valley"] = ""
+L["Portal to Stormwind"] = "暴风城传送门"
+-- L["Rostrum of Transformation"] = ""
+-- L["Teleport to Seat of the Aspects"] = ""
+-- L["Visage of True Self"] = ""
+
 end
