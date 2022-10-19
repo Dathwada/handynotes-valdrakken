@@ -34,12 +34,12 @@ local RetrievingData    = L["handler_tooltip_data"]
 --------------------------------------------GET NPC NAMES-------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
+local NPClinkValdrakken = CreateFrame("GameTooltip", "NPClinkValdrakken", UIParent, "GameTooltipTemplate")
 local function GetCreatureNameByID(id)
-    if id == nil then return end
-    if DATA.npcs[id] == nil then error("NPC " .. id .. " not found") end
-
-    local name = DATA.npcs[id].name or UNKNOWN
-    local sublabel = DATA.npcs[id].sublabel or ""
+	NPClinkValdrakken:SetOwner(UIParent, "ANCHOR_NONE")
+	NPClinkValdrakken:SetHyperlink(("unit:Creature-0-0-0-0-%d"):format(id))
+    local name      = _G["NPClinkValdrakkenTextLeft1"]:GetText()
+    local sublabel  = _G["NPClinkValdrakkenTextLeft2"]:GetText()
 
     return name, sublabel
 end
@@ -167,7 +167,9 @@ local function SetTooltip(tooltip, point)
             if (name) then
                 tooltip:AddLine(name)
             end
-            if (sublabel) then
+            if (point.sublabel) then
+                tooltip:AddLine(point.sublabel,1,1,1)
+            elseif (sublabel) then
                 tooltip:AddLine(sublabel,1,1,1)
             end
         end

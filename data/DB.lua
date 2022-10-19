@@ -42,9 +42,9 @@ private.DB = DB
 DB.points = {
     [2112] = { -- Valdrakken
 
-        [42365930] = { icon = "auctioneer", npc = 185714 }, -- Imporigo -- MARK
-        [42405995] = { icon = "auctioneer", npc = 197911 }, -- Antiqdormi -- MARK
-        [42626047] = { icon = "auctioneer", npc = 188661 }, -- Expordira -- MARK
+        [42365930] = { icon = "auctioneer", npc = 185714, sublabel = '' }, -- Imporigo -- MARK
+        [42405995] = { icon = "auctioneer", npc = 197911, sublabel = '' }, -- Antiqdormi -- MARK
+        [42626047] = { icon = "auctioneer", npc = 188661, sublabel = '' }, -- Expordira -- MARK
 
         [45565906] = { icon = "mail", label = mailbox },
         [48445104] = { icon = "mail", label = mailbox },
@@ -77,7 +77,7 @@ DB.points = {
 
 
         -- Little Scales Daycare
-        [10425826] = { icon = "vendor", npc = 185563 }, -- Jyhanna -- MARK
+        [10425826] = { icon = "vendor", npc = 185563, sublabel = '' }, -- Jyhanna -- MARK
         -- [12895714] = { icon="vendor", npc=182082 }, -- Agapanthus -- MARK
 
 
