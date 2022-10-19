@@ -21,7 +21,7 @@ L["config_what_to_display"] = "What to display?"
 L["config_what_to_display_desc"] = "These settings control what type of icons to be displayed."
 
 L["config_auctioneer"] = "Auctioneer"
-L["config_auctioneer_desc"] = "Show the auctioneer location."
+L["config_auctioneer_desc"] = "Show the auctioneer locations."
 
 L["config_banker"] = "Banker"
 L["config_banker_desc"] = "Show the banker locations."
@@ -39,7 +39,7 @@ L["config_guildvault"] = "Guild Vault"
 L["config_guildvault_desc"] = "Show the guild vault location."
 
 L["config_innkeeper"] = "Innkeeper"
-L["config_innkeeper_desc"] = "Show the innkeeper location."
+L["config_innkeeper_desc"] = "Show the innkeeper locations."
 
 L["config_mail"] = "Mailbox"
 L["config_mail_desc"] = "Show the mailbox locations."
@@ -51,7 +51,7 @@ L["config_portaltrainer"] = "Portal Trainer"
 L["config_portaltrainer_desc"] = "Show the Mage portal trainer location."
 
 L["config_tpplatform"] = "Teleport Platform"
-L["config_tpplatform_desc"] = "Show the teleport platform locations."
+L["config_tpplatform_desc"] = "Show the teleport platform location."
 
 L["config_travelguide_note"] = "|cFFFF0000*Already active through HandyNotes: TravelGuide.|r"
 
