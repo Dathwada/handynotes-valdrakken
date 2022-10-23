@@ -16,7 +16,7 @@
     * ![](https://i.imgur.com/OlyHdAf.png) ![](https://i.imgur.com/8Z3EJlm.png) Vendors
     * ![](https://i.imgur.com/8TkUTLl.png) Void Storage
     * ![](https://i.imgur.com/A1PicMd.png) Rostrum of Transformation
-    * ![](https://i.imgur.com/1CoRhil.png) Crafting Orders
+    * ![](https://i.imgur.com/isTDFR2.png) Crafting Orders
 
 *Not displayed if [HandyNotes: TravelGuide](https://www.curseforge.com/wow/addons/handynotes-travelguide) is already active.
 
