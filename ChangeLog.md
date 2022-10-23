@@ -1,5 +1,13 @@
 ## Revision History:
 
+#### v0.4 (Oktober 23, 2022)
+-------------------------------
+* Added new Portals
+* Added a new crafing order icon
+* Added back creature scanning
+* Updated the config layout
+* Background changes
+
 #### v0.3 (Oktober 08, 2022)
 -------------------------------
 * Fixed NPC names - Beta build 10.0.2.45969 broke creature scanning
