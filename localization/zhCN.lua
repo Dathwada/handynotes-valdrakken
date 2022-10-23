@@ -118,11 +118,13 @@ L["dev_config_show_prints_desc"] = "在聊天窗口中显示 print() 的信息"
 
 L["handler_context_menu_addon_name"] = "HandyNotes: 奥利波斯"
 L["handler_context_menu_add_tomtom"] = "添加到 TomTom"
+-- L['handler_context_menu_add_map_pin'] = "Set map waypoint"
 L["handler_context_menu_hide_node"] = "隐藏这个图标"
 
 --============================================TOOLTIPS============================================--
 
 L["handler_tooltip_requires"] = "需要"
+-- L["handler_tooltip_requires_level"] = "Requires at least player level"
 L["handler_tooltip_data"] = "检索数据中..."
 L["handler_tooltip_quest"] = "解锁任务"
 
