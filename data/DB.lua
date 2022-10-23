@@ -90,7 +90,7 @@ DB.points = {
         [30806081] = { icon = "vendor", npc = 198587, profession = 333, picon = "enchanting" }, -- Andoris
         [31066137] = { icon = "trainer", npc = 193744, profession = 333, picon = "enchanting" }, -- Soragosa
         -- Fishing, profession=356
-        [43477500] = { icon = "vendor", npc = 187783, picon = "fishing" }, -- Pakak
+        [43987489] = { icon = "vendor", npc = 187783, picon = "fishing" }, -- Pakak
         [44837473] = { icon = "trainer", npc = 185359, picon = "fishing" }, -- Toklo
         -- Herbalism
         [37376687] = { icon = "trainer", npc = 185549, profession = 182, picon = "herbalism" }, -- Agrikus
@@ -110,7 +110,7 @@ DB.points = {
         [32126626] = { icon = "trainer", npc = 195850, profession = 197, picon = "tailoring" }, -- Threadfinder Pax
 
         -- [28796431] = { icon="bubble", npc=194480 }, -- Nomi
-        [28826631] = { icon = "vendor", npc = 196975 }, -- Tonko Trickybits
+        [28826631] = { icon = "vendor", npc = 196975 }, -- Zinfandormu
         [29006488] = { icon = "vendor", npc = 196729 }, -- Gorgonzormu
         [29886737] = { icon = "vendor", npc = 195788 }, -- Nallu
         [31286972] = { icon = "vendor", npc = 195783 }, -- Clerk Nemora
@@ -144,8 +144,8 @@ DB.points = {
         -- Mining
         [38875149] = { icon = "trainer", npc = 185553, profession = 186, picon = "mining" }, -- Sekita the Burrower
 
-        [35954970] = { icon = "vendor", npc = 195770 }, -- Armorsmith Terisk -- MARK
-        [36165194] = { icon = "vendor", npc = 195769 }, -- Weaponsmith Koref
+        [35954970] = { icon = "vendor", npc = 195770, sublabel='' }, -- Armorsmith Terisk -- MARK
+        [36165194] = { icon = "vendor", npc = 195769, sublabel='' }, -- Weaponsmith Koref
         [37654949] = { icon = "mail", label = mailbox },
 
 
