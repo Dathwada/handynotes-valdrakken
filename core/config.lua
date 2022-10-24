@@ -113,7 +113,7 @@ config.options = {
                     name = L["config_waypoint_dropdown"],
                     desc = L["config_waypoint_dropdown_desc"],
                     width = 0.7,
-                    order = 37,
+                    order = 36.1,
                 },
                 unhide = {
                     type = "execute",
@@ -127,7 +127,7 @@ config.options = {
                         addon:Refresh()
                         print("Valdrakken: "..L["config_restore_nodes_print"])
                     end,
-                    order = 38,
+                    order = 37,
                 },
             },
             },
@@ -151,7 +151,7 @@ for i, icongroup in ipairs(private.constants.icongroup) do
         type = "toggle",
         name = L["config_"..icongroup],
         desc = L["config_"..icongroup.."_desc"],
-        order = i+2,
+        order = i + 2,
     }
 
 end
@@ -174,7 +174,7 @@ for i, icongroup in ipairs(private.constants.icongroup) do
     config.options.args.SCALEALPHA.args["name_"..icongroup] = {
         type = "header",
         name = L["config_"..icongroup],
-        order = i *10,
+        order = i * 10,
     }
 
     config.options.args.SCALEALPHA.args["icon_scale_"..icongroup] = {
@@ -183,7 +183,7 @@ for i, icongroup in ipairs(private.constants.icongroup) do
         desc = L["config_icon_scale_desc"],
         min = 0.25, max = 3, step = 0.01,
         arg = "icon_scale_"..icongroup,
-        width = 1.2,
+        width = 1.19,
         order = i * 10 + 1,
     }
 
@@ -193,7 +193,7 @@ for i, icongroup in ipairs(private.constants.icongroup) do
         desc = L["config_icon_alpha_desc"],
         min = 0, max = 1, step = 0.01,
         arg = "icon_alpha_"..icongroup,
-        width = 1.2,
+        width = 1.19,
         order = i * 10 + 2,
     }
 end
