@@ -153,7 +153,7 @@ local GetPointInfo = function(point)
     end
 end
 
-local GetPoinInfoByCoord = function(uMapID, coord)
+local GetPointInfoByCoord = function(uMapID, coord)
     return GetPointInfo(private.DB.points[uMapID] and private.DB.points[uMapID][coord])
 end
 
@@ -244,7 +244,7 @@ local function addTomTomWaypoint(button, uMapID, coord)
     if (IsAddOnLoaded("TomTom")) then
         local x, y = HandyNotes:getXY(coord)
         TomTom:AddWaypoint(uMapID, x, y, {
-            title = GetPoinInfoByCoord(uMapID, coord),
+            title = GetPointInfoByCoord(uMapID, coord),
             persistent = nil,
             minimap = true,
             world = true
