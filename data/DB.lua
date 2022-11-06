@@ -74,6 +74,10 @@ DB.points = {
         -- Gladiator's Refuge
         [43064241] = { icon = "vendor", npc = 197553 }, -- Fieldmaster Emberath
         [43374251] = { icon = "anvil", npc = 196191 }, -- Malicia
+        [45863872] = { icon = "vendor", npc = 199720 }, -- Glamora
+        [45723818] = { icon = "reforge", npc = 199603 }, -- Corxian
+        [44763682] = { icon = "vendor", npc = 199601 }, -- Seltherex
+        [44313646] = { icon = "vendor", npc = 199599 }, -- Calderax
 
 
         -- Little Scales Daycare
@@ -161,9 +165,10 @@ DB.points = {
 
 
         -- The Ruby Enclave
+        [60731615] = { icon = "vendor", npc = 189041 }, -- Coulisa
         [57482359] = { icon = "vendor", npc = 198441 }, -- Gardener Cereus
         -- Alchemy
-        [60811741] = { icon = "vendor", npc = 198438, profession = 171, picon = "alchemy" }, -- Gerdener Rafalsia WALKS AROUND
+        [58841839] = { icon = "vendor", npc = 198438, profession = 171, picon = "alchemy" }, -- Gerdener Rafalsia WALKS AROUND
 
 
         -- The Sapphire Enclave

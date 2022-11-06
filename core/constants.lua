@@ -108,7 +108,7 @@ constants.icongroup = {
     "mail",
     "portal",
     "portaltrainer",
-    -- "reforge",
+    "reforge",
     "rostrum",
     "stablemaster",
     "tpplatform",
