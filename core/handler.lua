@@ -36,6 +36,8 @@ local RetrievingData    = L["handler_tooltip_data"]
 
 local NPClinkValdrakken = CreateFrame("GameTooltip", "NPClinkValdrakken", UIParent, "GameTooltipTemplate")
 local function GetCreatureNameByID(id)
+    if (not id) then return end
+
 	NPClinkValdrakken:SetOwner(UIParent, "ANCHOR_NONE")
 	NPClinkValdrakken:SetHyperlink(("unit:Creature-0-0-0-0-%d"):format(id))
     local name      = _G["NPClinkValdrakkenTextLeft1"]:GetText()
