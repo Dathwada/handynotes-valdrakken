@@ -10,6 +10,7 @@
     * ![](https://i.imgur.com/iGH7Fqt.png) Mailboxes
     * ![](https://i.imgur.com/NIUq9ta.png) Portal*
     * ![](https://i.imgur.com/qnvvSpq.png) Teleport to Seat of the Aspects*
+    * ![](https://i.imgur.com/FCGho5k.png) Armor Enhancer
     * ![](https://i.imgur.com/oxhxncv.png) Stable Master
     * ![](https://i.imgur.com/sKsc6Jc.png) Profession Trainers (Profession icons possible)
     * ![](https://i.imgur.com/71Ybhb5.png) Transmogrifier
