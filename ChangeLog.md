@@ -1,5 +1,12 @@
 ## Revision History:
 
+#### v0.5 (November 16, 2022)
+-------------------------------
+* Added TomTom waypoint from info
+* Added new NPCs
+* Updated the config layout again (to fit with ElvUI)
+* Updated zhCN and zhTW
+
 #### v0.4 (Oktober 23, 2022)
 -------------------------------
 * Added new Portals
