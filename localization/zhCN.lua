@@ -3,14 +3,14 @@ local L = LibStub("AceLocale-3.0"):NewLocale("HandyNotes_Valdrakken", "zhCN", fa
 if not L then return end
 -- Simplified Chinese localization by nbyang ( https://www.curseforge.com/members/nbyang )
 --  zhCN client: (NGA-男爵凯恩)
---  Last update: 2022/06/07
+--  Last update: 2022/11/17
 if L then
 ----------------------------------------------------------------------------------------------------
 -----------------------------------------------CONFIG-----------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
--- L["config_plugin_name"] = ""
--- L["config_plugin_desc"] = ""
+L["config_plugin_name"] = "瓦德拉肯"
+L["config_plugin_desc"] = "在世界地图和小地图中显示瓦德拉肯所有NPC"
 
 L["config_tab_general"] = "通用"
 L["config_tab_scale_alpha"] = "缩放/透明度"
@@ -90,7 +90,7 @@ L["Both"] = "同时显示"
 L["config_easy_waypoints"] = "便捷导航"
 L["config_easy_waypoints_desc"] = "使你可以更简单的建立导航路线, 你可以通过右键单击设定导航点或者使用CTRL+右键单击获得更多选项."
 
-L["config_picons"] = "显示商业图标"
+L["config_picons"] = "显示专业图标"
 L["config_picons_vendor_desc"] = "显示专业图标而不是商人图标"
 L["config_picons_trainer_desc"] = "显示专业图标而不是训练师图标"
 
@@ -107,8 +107,8 @@ L["dev_config_tab"] = "DEV"
 L["dev_config_force_nodes"] = "强制显示"
 L["dev_config_force_nodes_desc"] = "无论你的职业或阵营, 强制显示所有的点."
 
-L["dev_config_show_prints"] = "显示 print()"
-L["dev_config_show_prints_desc"] = "在聊天窗口中显示 print() 的信息"
+L["dev_config_show_prints"] = "显示标记()"
+L["dev_config_show_prints_desc"] = "在聊天窗口中显示标记()的信息"
 
 ----------------------------------------------------------------------------------------------------
 -----------------------------------------------HANDLER----------------------------------------------
@@ -116,15 +116,15 @@ L["dev_config_show_prints_desc"] = "在聊天窗口中显示 print() 的信息"
 
 --==========================================CONTEXT_MENU==========================================--
 
-L["handler_context_menu_addon_name"] = "HandyNotes: Valdrakken"
+L["handler_context_menu_addon_name"] = "HandyNotes:瓦德拉肯"
 L["handler_context_menu_add_tomtom"] = "添加到 TomTom"
--- L['handler_context_menu_add_map_pin'] = "Set map waypoint"
+-- L['handler_context_menu_add_map_pin'] = "设置地图航点"
 L["handler_context_menu_hide_node"] = "隐藏这个图标"
 
 --============================================TOOLTIPS============================================--
 
 L["handler_tooltip_requires"] = "需要"
--- L["handler_tooltip_requires_level"] = "Requires at least player level"
+-- L["handler_tooltip_requires_level"] = "需要玩家等级"
 L["handler_tooltip_data"] = "检索数据中..."
 L["handler_tooltip_quest"] = "解锁任务"
 
@@ -132,15 +132,15 @@ L["handler_tooltip_quest"] = "解锁任务"
 ----------------------------------------------DATABASE----------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
--- L["Crafting Orders"] = ""
+L["Crafting Orders"] = "制作订单"
 L["Mailbox"] = "邮箱"
 L["Portal to Dalaran"] = "通往达拉然"
 L["Portal to Jade Forest"] = "通往翡翠林"
-L["Portal to Orgrimmar"] = "奥格瑞玛传送门"
--- L["Portal to Shadowmoon Valley"] = ""
-L["Portal to Stormwind"] = "暴风城传送门"
--- L["Rostrum of Transformation"] = ""
+L["Portal to Orgrimmar"] = "通往奥格瑞玛"
+L["Portal to Shadowmoon Valley"] = "通往影月谷"
+L["Portal to Stormwind"] = "通往暴风城"
+L["Rostrum of Transformation"] = "幻形讲坛"
 -- L["Teleport to Seat of the Aspects"] = ""
--- L["Visage of True Self"] = ""
+L["Visage of True Self"] = "幻容形态"
 
 end
