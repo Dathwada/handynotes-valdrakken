@@ -128,6 +128,7 @@ DB.points = {
         [74506309] = { icon = "vendor", npc = 189197 }, -- Groundskeeper Kama
 
         [58225436] = { icon = "guildvault", label = L["config_guildvault"] },
+        [58205788] = { icon = "vendor", npc = 199605 }, -- Evantkis
         [60015392] = { icon = "banker", npc = 185572 }, -- Vekkalis
         [60575701] = { icon = "banker", npc = 189168 }, -- Aeoreon
         [61085510] = { icon = "banker", npc = 186794 }, -- Numernormi
