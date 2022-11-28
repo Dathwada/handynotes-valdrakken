@@ -17,20 +17,11 @@ local function GetMapNames(id1, id2)
     end
 end
 
-local PtoOG = L["Portal to Orgrimmar"]
 local Durotar = GetMapNames(12, 1)
-local PtoSW = L["Portal to Stormwind"]
 local ElwynnForest = GetMapNames(13, 37)
-
-local PtoJadeForest = L["Portal to Jade Forest"]
 local Pandaria = GetMapNames(424)
-local PtoSMV = L["Portal to Shadowmoon Valley"]
 local Draenor = GetMapNames(572)
-local PtoDala = L["Portal to Dalaran"]
 local BrokenIsles = GetMapNames(619)
-
-local guildvault = L["config_guildvault"]
-local mailbox = L["Mailbox"]
 
 ----------------------------------------------------------------------------------------------------
 ----------------------------------------------DATABASE----------------------------------------------
@@ -42,14 +33,18 @@ private.DB = DB
 DB.points = {
     [2112] = { -- Valdrakken
 
-        [42365930] = { icon = "auctioneer", npc = 185714, sublabel = '' }, -- Imporigo -- MARK
-        [42405995] = { icon = "auctioneer", npc = 197911, sublabel = '' }, -- Antiqdormi -- MARK
-        [42626047] = { icon = "auctioneer", npc = 188661, sublabel = '' }, -- Expordira -- MARK
+        [42365930] = { icon = "auctioneer", npc = 185714, sublabel = '' }, -- Imporigo
+        [42405995] = { icon = "auctioneer", npc = 197911, sublabel = '' }, -- Antiqdormi
+        [42626047] = { icon = "auctioneer", npc = 188661, sublabel = '' }, -- Expordira
 
-        [45565906] = { icon = "mail", label = mailbox },
-        [48445104] = { icon = "mail", label = mailbox },
+        [45565906] = { icon = "mail", label = L["Mailbox"] },
+        [48445104] = { icon = "mail", label = L["Mailbox"] },
 
-        [53885502] = { icon = "portal", multilabel = { PtoJadeForest, PtoSMV, PtoDala }, multinote = { Pandaria, Draenor, BrokenIsles } },
+        [53885502] = {
+            icon = "portal",
+            multilabel = { L["Portal to Jade Forest"], L["Portal to Shadowmoon Valley"], L["Portal to Dalaran"] },
+            multinote = { Pandaria, Draenor, BrokenIsles }
+        },
 
         [73975645] = { icon = "void", npc = 185689 }, -- Vaultkeeper Aleer
         [74485605] = { icon = "transmogrifier", npc = 185570 }, -- Warpweaver Dayelis
@@ -81,8 +76,8 @@ DB.points = {
 
 
         -- Little Scales Daycare
-        [10425826] = { icon = "vendor", npc = 185563, sublabel = '' }, -- Jyhanna -- MARK
-        -- [12895714] = { icon="vendor", npc=182082 }, -- Agapanthus -- MARK
+        [10425826] = { icon = "vendor", npc = 185563, sublabel = '' }, -- Jyhanna
+        -- [12895714] = { icon="vendor", npc=182082 }, -- Agapanthus
 
 
         -- The Artisan's Market
@@ -121,7 +116,7 @@ DB.points = {
         [31626932] = { icon = "vendor", npc = 195782 }, -- Giera
         [34536254] = { icon = "craftingorders", label = L["Crafting Orders"] }, -- CRAFTING ORDERS
         [35425910] = { icon = "vendor", npc = 194057 }, -- Rabul
-        [35455968] = { icon = "mail", label = mailbox },
+        [35455968] = { icon = "mail", label = L["Mailbox"] },
         [36436280] = { icon = "vendor", npc = 191000 }, -- Dothenos
 
 
@@ -132,7 +127,7 @@ DB.points = {
         -- The Emerals Encalve
         [74506309] = { icon = "vendor", npc = 189197 }, -- Groundskeeper Kama
 
-        [58225436] = { icon = "guildvault", label = guildvault },
+        [58225436] = { icon = "guildvault", label = L["config_guildvault"] },
         [60015392] = { icon = "banker", npc = 185572 }, -- Vekkalis
         [60575701] = { icon = "banker", npc = 189168 }, -- Aeoreon
         [61085510] = { icon = "banker", npc = 186794 }, -- Numernormi
@@ -148,9 +143,9 @@ DB.points = {
         -- Mining
         [38875149] = { icon = "trainer", npc = 185553, profession = 186, picon = "mining" }, -- Sekita the Burrower
 
-        [35954970] = { icon = "vendor", npc = 195770, sublabel='' }, -- Armorsmith Terisk -- MARK
-        [36165194] = { icon = "vendor", npc = 195769, sublabel='' }, -- Weaponsmith Koref
-        [37654949] = { icon = "mail", label = mailbox },
+        [35954970] = { icon = "vendor", npc = 195770, sublabel = '' }, -- Armorsmith Terisk
+        [36165194] = { icon = "vendor", npc = 195769, sublabel = '' }, -- Weaponsmith Koref
+        [37654949] = { icon = "mail", label = L["Mailbox"] },
 
 
         -- The Patting Glass
@@ -177,11 +172,11 @@ DB.points = {
 
 
         -- The Seat of the Aspects
-        [56603821] = { icon = "portal", label = PtoOG, note = Durotar, faction = "Horde" }, -- , quest=?, level=?
-        [59834172] = { icon = "portal", label = PtoSW, note = ElwynnForest, faction = "Alliance" }, -- , quest=?, level=?
+        [56603821] = { icon = "portal", label = L["Portal to Orgrimmar"], note = Durotar, faction = "Horde" }, -- , quest=?, level=?
+        [59834172] = { icon = "portal", label = L["Portal to Stormwind"], note = ElwynnForest, faction = "Alliance" }, -- , quest=?, level=?
         [61963208] = { icon = "tpplatform", label = L["Teleport to Seat of the Aspects"], level = 64 },
         [58173499] = { icon = "vendor", npc = 193015 }, -- Unatos
-        [59204283] = { icon = "portaltrainer", npc = 198895, class = "MAGE" }, -- Alregosa -- MARK
+        [59204283] = { icon = "portaltrainer", npc = 198895, class = "MAGE" }, -- Alregosa
 
 
         -- The Victorious Visage
