@@ -181,7 +181,7 @@ DB.points = {
         [59834172] = { icon = "portal", label = PtoSW, note = ElwynnForest, faction = "Alliance" }, -- , quest=?, level=?
         [61963208] = { icon = "tpplatform", label = L["Teleport to Seat of the Aspects"], level = 64 },
         [58173499] = { icon = "vendor", npc = 193015 }, -- Unatos
-        [59204283] = { icon = "portaltrainer", npc = 198895 }, -- Alregosa -- MARK
+        [59204283] = { icon = "portaltrainer", npc = 198895, class = "MAGE" }, -- Alregosa -- MARK
 
 
         -- The Victorious Visage
