@@ -10,7 +10,6 @@ local HandyNotes = LibStub("AceAddon-3.0"):GetAddon("HandyNotes")
 local HBD = LibStub('HereBeDragons-2.0')
 local L = LibStub("AceLocale-3.0"):GetLocale(FOLDER_NAME)
 
-private.DATA = {}
 private.locale = L
 
 addon.constants = private.constants
@@ -19,7 +18,6 @@ _G.HandyNotes_Valdrakken = addon
 
 local IsQuestCompleted = C_QuestLog.IsQuestFlaggedCompleted
 local constantsicon = private.constants.icon
-local DATA = private.DATA
 
 ----------------------------------------------------------------------------------------------------
 -----------------------------------------------LOCALS-----------------------------------------------
