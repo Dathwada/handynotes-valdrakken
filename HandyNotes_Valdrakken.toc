@@ -3,11 +3,11 @@
 ## Notes: Shows the NPC and POI locations in Valdrakken.
 ## Notes-deDE: Zeigt die Positionen von NPCs und anderen Orten von Interesse in Valdrakken an.
 ## Author: |cFFFF8C00Dathwada EU-Eredar|r
-## Version: v0.5
+## Version: v1
 ## RequiredDeps: HandyNotes
 ## DefaultState: enabled
 ## SavedVariables: HandyNotes_ValdrakkenDB
-## X-Date: 2022-11-16
+## X-Date: 2022-11-28
 ## X-Category: Map
 
 # LOCALIZATION FILES
