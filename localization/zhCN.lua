@@ -154,6 +154,6 @@ L["Portal to Shadowmoon Valley"] = "通往影月谷"
 L["Portal to Stormwind"] = "通往暴风城"
 L["Rostrum of Transformation"] = "幻形讲坛"
 L["Teleport to Seat of the Aspects"] = "传送到守护巨龙之座"
-L["Visage of True Self"] = "幻容形态"
+L["Visage of True Self"] = "凯旋幻容"
 
 end
