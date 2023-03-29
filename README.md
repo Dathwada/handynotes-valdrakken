@@ -34,11 +34,11 @@
 * `deDE` - German (Native locale by Dathwada!)
 * `esES` - Spanish (thanks [S0NSHINE_](https://www.curseforge.com/members/S0NSHINE_) and [Irakua](https://www.curseforge.com/members/Irakua)!)
 * `esMX` - Latin American Spanish (thanks [jack114](https://www.curseforge.com/members/jack114)!)
-* `frFR` - French (thanks [Zwickwik](https://www.curseforge.com/members/zickwik)!)
+* `frFR` - French (thanks [Zwickwik](https://www.curseforge.com/members/zickwik) and [Machou](https://github.com/Machou)!)
 * `itIT` - Italian (thanks [Crimsab](https://www.curseforge.com/members/crimsab)!)
 * `koKR` - Korean (thanks [unrealcrom96](https://www.curseforge.com/members/unrealcrom96)!)
 * `ptBR` - Brazilian Portuguese (thanks [Mikedrs](https://www.curseforge.com/members/mikedrs)!)
-* `ruRU` - Russian (thanks [Werloz](https://www.curseforge.com/members/werloz)!)
+* `ruRU` - Russian (thanks [Werloz](https://www.curseforge.com/members/werloz) and [dartraiden](https://www.curseforge.com/members/dartraiden)!)
 * `zhCN` - Simplified Chinese (thanks [nbyang](https://www.curseforge.com/members/nbyang) and [nanjuekaien1](https://github.com/nanjuekaien1)!)
 * `zhTW` - Traditional Chinese (thanks [RainbowUI](https://www.curseforge.com/members/rainbowui)!)
 
