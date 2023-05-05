@@ -1,5 +1,10 @@
 ## Revision History:
 
+#### v4 (May 05, 2023)
+-------------------------------
+* Add IconTexture to .toc
+* Bump .toc to 100100
+
 #### v3 (March 22, 2023)
 -------------------------------
 * Bump .toc to 100007
