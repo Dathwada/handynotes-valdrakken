@@ -40,7 +40,7 @@
 * `ptBR` - Brazilian Portuguese (thanks [Mikedrs](https://www.curseforge.com/members/mikedrs)!)
 * `ruRU` - Russian (thanks [Werloz](https://www.curseforge.com/members/werloz) and [dartraiden](https://www.curseforge.com/members/dartraiden)!)
 * `zhCN` - Simplified Chinese (thanks [nbyang](https://www.curseforge.com/members/nbyang) and [nanjuekaien1](https://github.com/nanjuekaien1)!)
-* `zhTW` - Traditional Chinese (thanks [RainbowUI](https://www.curseforge.com/members/rainbowui)!)
+* `zhTW` - Traditional Chinese (thanks [RainbowUI](https://www.curseforge.com/members/rainbowui) and [bns333](https://legacy.curseforge.com/members/bns333)!)
 
 If you wish to help localize this plugin, please go to [Localization](https://www.curseforge.com/wow/addons/handynotes-valdrakken/localization).
 
