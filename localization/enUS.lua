@@ -128,7 +128,7 @@ L["dev_config_show_prints_desc"] = "Show print() messages in the chat window."
 
 L["handler_context_menu_addon_name"] = "HandyNotes: Valdrakken"
 L["handler_context_menu_add_tomtom"] = "Add to TomTom"
-L['handler_context_menu_add_map_pin'] = "Set map waypoint"
+L["handler_context_menu_add_map_pin"] = "Set map waypoint"
 L["handler_context_menu_hide_node"] = "Hide this node"
 
 --============================================TOOLTIPS============================================--

@@ -127,7 +127,7 @@ L["dev_config_show_prints_desc"] = "Показывать сообщения prin
 
 L["handler_context_menu_addon_name"] = "HandyNotes: Valdrakken"
 L["handler_context_menu_add_tomtom"] = "Добавить в TomTom"
-L['handler_context_menu_add_map_pin'] = "Установить путевую точку"
+L["handler_context_menu_add_map_pin"] = "Установить путевую точку"
 L["handler_context_menu_hide_node"] = "Скрыть этот значок"
 
 --============================================TOOLTIPS============================================--

@@ -128,7 +128,7 @@ L["dev_config_show_prints_desc"] = "Show print() messages in the chat window."
 
 L["handler_context_menu_addon_name"] = "HandyNotes : Valdrakken"
 L["handler_context_menu_add_tomtom"] = "Ajouter à TomTom"
-L['handler_context_menu_add_map_pin'] = "Marque les waypoint sur la carte"
+L["handler_context_menu_add_map_pin"] = "Marque les waypoint sur la carte"
 L["handler_context_menu_hide_node"] = "Masque cet endroit"
 
 --============================================TOOLTIPS============================================--
@@ -142,12 +142,12 @@ L["handler_tooltip_quest"] = "Débloqué avec une quête"
 ----------------------------------------------DATABASE----------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
-L["Crafting Orders"] = true
+L["Crafting Orders"] = "Commandes d’artisanat"
 L["Mailbox"] = "Boite aux lettres"
 L["Portal to Orgrimmar"] = "Portail vers Orgrimmar"
 L["Portal to Stormwind"] = "Portail vers Hurlevent"
-L["Rostrum of Transformation"] = true
-L["Teleport to Seat of the Aspects"] = true
+L["Rostrum of Transformation"] = "Tribune de transformation"
+L["Teleport to Seat of the Aspects"] = "Téléportation au siège des Aspects"
 L["Visage of True Self"] = true
 L["Portal to Nazmir"] = "Portail vers Nazmir"
 L["Portal to Tiragarde Sound"] = "Portail vers la rade de Tiragarde"
