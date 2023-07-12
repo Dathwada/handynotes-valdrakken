@@ -43,6 +43,7 @@ DB.points = {
 
         [45565906] = { icon = "mail", label = L["Mailbox"] },
         [48445104] = { icon = "mail", label = L["Mailbox"] },
+        [54545949] = { icon = "mail", label = L["Mailbox"] },
 
         [53885502] = {
             icon = "portal",
@@ -151,7 +152,7 @@ DB.points = {
 
         [35954970] = { icon = "vendor", npc = 195770, sublabel = '' }, -- Armorsmith Terisk
         [36165194] = { icon = "vendor", npc = 195769, sublabel = '' }, -- Weaponsmith Koref
-        [37654949] = { icon = "mail", label = L["Mailbox"] },
+        [37995078] = { icon = "mail", label = L["Mailbox"] },
 
 
         -- The Patting Glass
