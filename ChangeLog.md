@@ -1,5 +1,11 @@
 ## Revision History:
 
+#### v6 (July 12, 2023)
+-------------------------------
+* Bump .toc to 100105
+* Updated localizations
+* Added and adjusted a mailbox
+
 #### v5 (May 12, 2023)
 -------------------------------
 * Added Portal to Badlands in Valdrakken
