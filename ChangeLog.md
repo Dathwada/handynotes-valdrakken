@@ -1,5 +1,10 @@
 ## Revision History:
 
+#### v7 (September 06, 2023)
+-------------------------------
+* Add Erza (Item Upgrades)
+* Bump .toc to 100107
+
 #### v6 (July 12, 2023)
 -------------------------------
 * Bump .toc to 100105
