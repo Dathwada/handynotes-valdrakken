@@ -176,6 +176,7 @@ DB.points = {
         -- The Sapphire Enclave
         [38093772] = { icon = "vendor", npc = 196516 }, -- Mythressa
         [38443674] = { icon = "vendor", npc = 196598 }, -- Rethelshi
+        [38663712] = { icon = "reforge", npc = 203391 }, -- Erza
 
 
         -- The Seat of the Aspects
