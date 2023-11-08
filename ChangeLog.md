@@ -1,5 +1,9 @@
 ## Revision History:
 
+#### v8 (November 08, 2023)
+-------------------------------
+* Bump .toc to 100200
+
 #### v7 (September 06, 2023)
 -------------------------------
 * Add Erza (Item Upgrades)
