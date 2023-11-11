@@ -26,6 +26,7 @@ local Kalimdor = GetMapNames(12)
 local EasternKingdoms = GetMapNames(13)
 local Zandalar = GetMapNames(875)
 local KulTiras = GetMapNames(876)
+local EmeraldDream = GetMapNames(2200)
 
 ----------------------------------------------------------------------------------------------------
 ----------------------------------------------DATABASE----------------------------------------------
@@ -51,6 +52,7 @@ DB.points = {
             multinote = { Zandalar, KulTiras, Kalimdor }
         },
         [26094099] = { icon="portal", label=L["Portal to Badlands"], note=EasternKingdoms },
+        [62675730] = { icon="portal", label=L["Portal to Central Encampment"], note=EmeraldDream }, -- TODO find out and add accountwide quest
 
         [73975645] = { icon = "void", npc = 185689 }, -- Vaultkeeper Aleer
         [74485605] = { icon = "transmogrifier", npc = 185570 }, -- Warpweaver Dayelis

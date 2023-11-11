@@ -153,6 +153,7 @@ L["Portal to Nazmir"] = "Portail vers Nazmir"
 L["Portal to Tiragarde Sound"] = "Portail vers la rade de Tiragarde"
 L["Portal to Uldum"] = "Portail vers Uldum"
 L["Portal to Badlands"] = "Portail vers les terres Ingrates"
+-- L["Portal to Central Encampment"] = ""
 
 -- L["Portal to Dalaran"] = "Portail vers Dalaran"
 -- L["Portal to Jade Forest"] = "Portail vers la forêt de Jade"

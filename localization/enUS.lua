@@ -153,6 +153,7 @@ L["Portal to Nazmir"] = true
 L["Portal to Tiragarde Sound"] = true
 L["Portal to Uldum"] = true
 L["Portal to Badlands"] = true
+L["Portal to Central Encampment"] = true
 
 -- L["Portal to Dalaran"] = true
 -- L["Portal to Jade Forest"] = true
