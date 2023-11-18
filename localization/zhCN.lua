@@ -3,7 +3,7 @@ local L = LibStub("AceLocale-3.0"):NewLocale("HandyNotes_Valdrakken", "zhCN", fa
 if not L then return end
 -- Simplified Chinese localization by nbyang ( https://www.curseforge.com/members/nbyang )
 --  zhCN client: (NGA-男爵凯恩)
---  Last update: 2022/11/29
+--  Last update: 2023/11/17
 if L then
 ----------------------------------------------------------------------------------------------------
 -----------------------------------------------CONFIG-----------------------------------------------
@@ -154,5 +154,5 @@ L["Teleport to Seat of the Aspects"] = "传送到守护巨龙之座"
 L["Visage of True Self"] = "凯旋幻容"
 L["Portal to Badlands"] = "通往荒芜之地的传送门"
 L["Portal to Central Encampment"] = "通往中心营地的传送门"
--- L["Portal to The Timeways"] = ""
+L["Portal to The Timeways"] = "通往时间流的传送门"
 end
