@@ -1,5 +1,11 @@
 ## Revision History:
 
+#### v10 (November 19, 2023)
+-------------------------------
+* Added Portal to The Timeways (Season 3)
+    * Removed Season 2 Portals (Season 2)
+* Updated zhCN by [nanjuekaien1](https://github.com/nanjuekaien1)
+
 #### v9 (November 11, 2023)
 -------------------------------
 * Added Portal to Central Encampment
