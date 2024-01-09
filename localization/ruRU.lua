@@ -149,6 +149,6 @@ L["Rostrum of Transformation"] = "Постамент трансформации"
 L["Teleport to Seat of the Aspects"] = "Телепорт к Престолу Аспектов"
 L["Visage of True Self"] = "Истинный облик"
 L["Portal to Badlands"] = "Портал в Бесплодные земли"
--- L["Portal to Central Encampment"] = ""
--- L["Portal to The Timeways"] = ""
+L["Portal to Central Encampment"] = "Портал в центральный лагерь"
+L["Portal to The Timeways"] = "Портал в Потоки времени"
 end
