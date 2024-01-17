@@ -2,6 +2,7 @@
 ## Title: HandyNotes: Valdrakken
 ## Notes: Shows the NPC and POI locations in Valdrakken.
 ## Notes-deDE: Zeigt die Positionen von NPCs und anderen Orten von Interesse in Valdrakken an.
+## Notes-zhCN: 显示瓦德拉肯各种NPC及传送门位置。
 ## Author: |cFFFF8C00Dathwada EU-Eredar|r
 ## Version: v11
 ## RequiredDeps: HandyNotes
