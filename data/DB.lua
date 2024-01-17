@@ -40,9 +40,9 @@ DB.points = {
         [48445104] = { icon = "mail", label = L["Mailbox"] },
         [54545949] = { icon = "mail", label = L["Mailbox"] },
 
-        [53565538] = { icon="portal", label=L["Portal to The Timeways"] },
+        [53565538] = { icon="portal", label=L["Portal to The Timeways"], level=70 },
         [26094099] = { icon="portal", label=L["Portal to Badlands"], note=EasternKingdoms },
-        [62675730] = { icon="portal", label=L["Portal to Central Encampment"], note=EmeraldDream }, -- TODO find out and add accountwide quest
+        [62675730] = { icon="portal", label=L["Portal to Central Encampment"], note=EmeraldDream, level=70 }, -- quest=76318, TODO find out and add accountwide quest
 
         [73975645] = { icon = "void", npc = 185689 }, -- Vaultkeeper Aleer
         [74485605] = { icon = "transmogrifier", npc = 185570 }, -- Warpweaver Dayelis
