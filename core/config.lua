@@ -2,9 +2,9 @@
 ------------------------------------------AddOn NAMESPACE-------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
-local FOLDER_NAME, private = ...
+local FOLDER_NAME, ns = ...
 local addon = LibStub("AceAddon-3.0"):GetAddon(FOLDER_NAME)
-local L = private.locale
+local L = ns.locale
 
 addon.pluginName  = L["config_plugin_name"]
 addon.description = L["config_plugin_desc"]
@@ -14,16 +14,16 @@ addon.description = L["config_plugin_desc"]
 ----------------------------------------------------------------------------------------------------
 
 local config = {}
-private.config = config
+ns.config = config
 
 config.options = {
     type = "group",
     name = addon.pluginName,
     desc = addon.description,
     childGroups = "tab",
-    get = function(info) return private.db[info[#info]] end,
+    get = function(info) return ns.db[info[#info]] end,
     set = function(info, v)
-        private.db[info[#info]] = v
+        ns.db[info[#info]] = v
         addon:SendMessage("HandyNotes_NotifyUpdate", addon.pluginName)
     end,
     args = {
@@ -90,7 +90,7 @@ config.options = {
                             width = "full",
                             name = L["config_use_old_picons"],
                             desc = L["config_use_old_picons_desc"],
-                            disabled = function() return not (private.db.picons_trainer or private.db.picons_vendor) end,
+                            disabled = function() return not (ns.db.picons_trainer or ns.db.picons_vendor) end,
                             order = 34,
                         },
                         line_misc = {
@@ -108,7 +108,7 @@ config.options = {
                         easy_waypoint_dropdown = {
                             type = "select",
                             values = { L["Blizzard"], L["TomTom"], L["Both"] },
-                            disabled = function() return not private.db.easy_waypoint end,
+                            disabled = function() return not ns.db.easy_waypoint end,
                             hidden = function() return not C_AddOns.IsAddOnLoaded("TomTom") end,
                             name = L["config_waypoint_dropdown"],
                             desc = L["config_waypoint_dropdown_desc"],
@@ -121,7 +121,7 @@ config.options = {
                             name = L["config_restore_nodes"],
                             desc = L["config_restore_nodes_desc"],
                             func = function()
-                                for map, coords in pairs(private.hidden) do
+                                for map, coords in pairs(ns.hidden) do
                                     wipe(coords)
                                 end
                                 addon:Refresh()
@@ -145,7 +145,7 @@ config.options = {
 }
 
 -- create the general config menu
-for i, icongroup in ipairs(private.constants.icongroup) do
+for i, icongroup in ipairs(ns.constants.icongroup) do
 
     config.options.args.ICONDISPLAY.args.display.args["show_" .. icongroup] = {
         type = "toggle",
@@ -168,7 +168,7 @@ gcmp.show_tpplatform["name"] = function() return C_AddOns.IsAddOnLoaded("HandyNo
 gcmp.show_tpplatform["disabled"] = function() return C_AddOns.IsAddOnLoaded("HandyNotes_TravelGuide") end
 
 -- create the scale / alpha config menu
-for i, icongroup in ipairs(private.constants.icongroup) do
+for i, icongroup in ipairs(ns.constants.icongroup) do
 
     config.options.args.SCALEALPHA.args["name_" .. icongroup] = {
         type = "header",
