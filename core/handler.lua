@@ -25,8 +25,8 @@ local NPClinkValdrakken = CreateFrame("GameTooltip", "NPClinkValdrakken", UIPare
 local function GetCreatureNameByID(id)
     if (not id) then return end
 
-	NPClinkValdrakken:SetOwner(UIParent, "ANCHOR_NONE")
-	NPClinkValdrakken:SetHyperlink(("unit:Creature-0-0-0-0-%d"):format(id))
+    NPClinkValdrakken:SetOwner(UIParent, "ANCHOR_NONE")
+    NPClinkValdrakken:SetHyperlink(("unit:Creature-0-0-0-0-%d"):format(id))
     local name      = _G["NPClinkValdrakkenTextLeft1"]:GetText()
     local sublabel  = _G["NPClinkValdrakkenTextLeft2"]:GetText()
 
@@ -96,7 +96,7 @@ local function SetIcon(node)
     local icon_key = node.icon
 
     if (node.picon) then
-        if (ns.db.picons_vendor and node.icon == "vendor") then
+        if (ns.db.picons_vendor and (node.icon == "vendor" or node.icon == "anvil")) then
             icon_key = ns.db.use_old_picons and node.picon.."_old" or node.picon
         end
 
@@ -112,7 +112,7 @@ end
 
 local function GetIconScale(icon, picon)
     -- makes the picon smaller
-    if (picon ~= nil and ns.db.picons_vendor and icon == "vendor") then return ns.db["icon_scale_vendor"] * 0.75 end
+    if (picon ~= nil and ns.db.picons_vendor and (icon == "vendor" or icon == "anvil")) then return ns.db["icon_scale_vendor"] * 0.75 end
     if (picon ~= nil and ns.db.picons_trainer and icon == "trainer") then return ns.db["icon_scale_trainer"] * 0.75 end
     -- anvil npcs are vendors
     if (icon == "anvil") then return ns.db["icon_scale_vendor"] end
