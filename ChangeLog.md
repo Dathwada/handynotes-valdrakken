@@ -1,5 +1,10 @@
 ## Revision History:
 
+#### v16 (October 27, 2024)
+-------------------------------
+* Fixed profession icon for anvil nodes
+* Bump .toc to 110005
+
 #### v15 (August 22, 2024)
 -------------------------------
 * Bump .toc to 110002
