@@ -72,9 +72,6 @@ L["config_transmogrifier_desc"] = "Показать местонахождени
 L["config_vendor"] = "Торговец"
 L["config_vendor_desc"] = "Показать местонахождение торговцев."
 
-L["config_void"] = "Хранилище Бездны"
-L["config_void_desc"] = "Показать расположение Хранилища Бездны."
-
 L["config_others"] = "Другое"
 L["config_others_desc"] = "Показать все остальные достопримечательности."
 

@@ -75,9 +75,6 @@ L["config_transmogrifier_desc"] = "显示幻化师的位置"
 L["config_vendor"] = "商人"
 L["config_vendor_desc"] = "显示商人的位置"
 
-L["config_void"] = "虚空仓库"
-L["config_void_desc"] = "显示虚空仓库的位置"
-
 L["config_others"] = "其他"
 L["config_others_desc"] = "显示其他的点"
 

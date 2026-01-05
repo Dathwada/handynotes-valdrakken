@@ -44,7 +44,6 @@ DB.nodes = {
         [26094099] = { icon = "portal", label=L["Portal to Badlands"], note=EasternKingdoms },
         [62675730] = { icon = "portal", label=L["Portal to Central Encampment"], note=EmeraldDream, level=70 }, -- quest=76318, TODO find out and add accountwide quest
 
-        [73975645] = { icon = "void", npc = 185689 }, -- Vaultkeeper Aleer
         [74485605] = { icon = "transmogrifier", npc = 185570 }, -- Warpweaver Dayelis
 
         [44046794] = { icon = "flightmaster", npc = 193321 }, -- Aluri

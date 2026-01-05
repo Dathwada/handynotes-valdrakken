@@ -15,7 +15,6 @@
     * ![](https://i.imgur.com/sKsc6Jc.png) Profession Trainers (Profession icons possible)
     * ![](https://i.imgur.com/71Ybhb5.png) Transmogrifier
     * ![](https://i.imgur.com/OlyHdAf.png) ![](https://i.imgur.com/8Z3EJlm.png) Vendors
-    * ![](https://i.imgur.com/8TkUTLl.png) Void Storage
     * ![](https://i.imgur.com/A1PicMd.png) Rostrum of Transformation
     * ![](https://i.imgur.com/isTDFR2.png) Crafting Orders
 

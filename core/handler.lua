@@ -398,7 +398,6 @@ do
             if (node.icon == "transmogrifier" and not ns.db.show_transmogrifier) then return false end
             if (node.icon == "tpplatform" and (not ns.db.show_tpplatform or C_AddOns.IsAddOnLoaded("HandyNotes_TravelGuide"))) then return false end
             if ((node.icon == "vendor" or node.icon == "anvil") and not ns.db.show_vendor) then return false end
-            if (node.icon == "void" and not ns.db.show_void) then return false end
         end
         return true
     end
