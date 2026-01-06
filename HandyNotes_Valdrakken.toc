@@ -1,4 +1,4 @@
-## Interface: 110205, 110207
+## Interface: 110207
 ## Title: HandyNotes: Valdrakken
 ## Title-zhCN: HandyNotes: 瓦德拉肯
 ## Title-ruRU: HandyNotes: Вальдраккен
@@ -7,12 +7,12 @@
 ## Notes-zhCN: 显示瓦德拉肯各种NPC及传送门位置。
 ## Notes-ruRU: Показывает расположение NPC и других интересных мест в Вальдраккене
 ## Author: |cFFFF8C00Dathwada EU-Eredar|r
-## Version: v20
+## Version: v21
 ## RequiredDeps: HandyNotes
 ## DefaultState: enabled
 ## SavedVariables: HandyNotes_ValdrakkenDB
 ## IconTexture: 4661644
-## X-Date: 2025-06-18
+## X-Date: 2026-01-06
 ## X-Category: Map
 
 # LOCALIZATION FILES
