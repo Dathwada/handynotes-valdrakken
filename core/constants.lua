@@ -47,8 +47,8 @@ constants.defaults = {
         icon_alpha_transmogrifier = 1,
         icon_scale_vendor = 1.25,
         icon_alpha_vendor = 1,
-        -- icon_scale_others = 1.25,
-        -- icon_alpha_others = 1,
+        icon_scale_others = 1.25,
+        icon_alpha_others = 1,
 
         show_auctioneer = true,
         show_banker = true,
@@ -67,7 +67,7 @@ constants.defaults = {
         show_trainer = true,
         show_transmogrifier = true,
         show_vendor = true,
-        -- show_others = true,
+        show_others = true,
 
         show_onlymytrainers = false,
         use_old_picons = false,
@@ -123,6 +123,7 @@ constants.icon = {
     anvil          = "Interface\\AddOns\\" .. FOLDER_NAME .. "\\icons\\anvil",
     banker         = "Interface\\MINIMAP\\TRACKING\\Banker",
     barber         = "Interface\\MINIMAP\\TRACKING\\Barbershop",
+    bubble         = "Interface\\AddOns\\" .. FOLDER_NAME .. "\\icons\\bubble",
     craftingorders = "Interface\\AddOns\\" .. FOLDER_NAME .. "\\icons\\craftingorders",
     rostrum        = "Interface\\AddOns\\" .. FOLDER_NAME .. "\\icons\\rostrum",
     flightmaster   = "Interface\\MINIMAP\\TRACKING\\FlightMaster",
@@ -136,6 +137,7 @@ constants.icon = {
     transmogrifier = "Interface\\MINIMAP\\TRACKING\\Transmogrifier",
     tpplatform     = "Interface\\MINIMAP\\TempleofKotmogu_ball_cyan",
     vendor         = "Interface\\AddOns\\" .. FOLDER_NAME .. "\\icons\\vendor",
+    quartermaster  = "Interface\\AddOns\\" .. FOLDER_NAME .. "\\icons\\quartermaster",
 
     -- profession icons (since Dragonflight)
     alchemy = "Interface\\ICONS\\ui_profession_alchemy",

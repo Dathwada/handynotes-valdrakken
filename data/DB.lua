@@ -66,12 +66,12 @@ DB.nodes = {
 
 
         -- Gladiator's Refuge
-        [43064241] = { icon = "vendor", npc = 197553 }, -- Fieldmaster Emberath
+        [43064241] = { icon = "quartermaster", npc = 197553 }, -- Fieldmaster Emberath
         [43374251] = { icon = "anvil", npc = 196191 }, -- Malicia
-        [45863872] = { icon = "vendor", npc = 199720 }, -- Glamora
+        [45863872] = { icon = "quartermaster", npc = 199720 }, -- Glamora
         [45723818] = { icon = "reforge", npc = 199603 }, -- Corxian
-        [44763682] = { icon = "vendor", npc = 199601 }, -- Seltherex
-        [44313646] = { icon = "vendor", npc = 199599 }, -- Calderax
+        [44763682] = { icon = "quartermaster", npc = 199601 }, -- Seltherex
+        [44313646] = { icon = "quartermaster", npc = 199599 }, -- Calderax
 
 
         -- Little Scales Daycare
@@ -114,7 +114,7 @@ DB.nodes = {
         [31286972] = { icon = "vendor", npc = 195783 }, -- Clerk Nemora
         [31626932] = { icon = "vendor", npc = 195782 }, -- Giera
         [34536254] = { icon = "craftingorders", label = L["Crafting Orders"] }, -- CRAFTING ORDERS
-        [35425910] = { icon = "vendor", npc = 194057 }, -- Rabul
+        [35425910] = { icon = "quartermaster", npc = 194057 }, -- Rabul
         [35455968] = { icon = "mail", label = L["Mailbox"] },
         [36436280] = { icon = "vendor", npc = 191000 }, -- Dothenos
 
@@ -128,7 +128,7 @@ DB.nodes = {
         [74506309] = { icon = "vendor", npc = 189197 }, -- Groundskeeper Kama
 
         [58225436] = { icon = "guildvault", label = L["config_guildvault"] },
-        [58205788] = { icon = "vendor", npc = 199605 }, -- Evantkis
+        [58205788] = { icon = "vendor", npc = 199605, sublabel = '' }, -- Evantkis
         [60015392] = { icon = "banker", npc = 185572 }, -- Vekkalis
         [60575701] = { icon = "banker", npc = 189168 }, -- Aeoreon
         [61085510] = { icon = "banker", npc = 186794 }, -- Numernormi
@@ -177,7 +177,7 @@ DB.nodes = {
         [56603821] = { icon = "portal", label = L["Portal to Orgrimmar"], note = Durotar, faction = "Horde" }, -- , quest=?, level=?
         [59834172] = { icon = "portal", label = L["Portal to Stormwind"], note = ElwynnForest, faction = "Alliance" }, -- , quest=?, level=?
         [61963208] = { icon = "tpplatform", label = L["Teleport to Seat of the Aspects"], level = 64 },
-        [58173499] = { icon = "vendor", npc = 193015 }, -- Unatos
+        [58173499] = { icon = "quartermaster", npc = 193015 }, -- Unatos
         [59204283] = { icon = "portaltrainer", npc = 198895, class = "MAGE" }, -- Alregosa
 
 

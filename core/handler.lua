@@ -115,14 +115,14 @@ local function GetIconScale(icon, picon)
     if (picon ~= nil and ns.db.picons_vendor and (icon == "vendor" or icon == "anvil")) then return ns.db["icon_scale_vendor"] * 0.75 end
     if (picon ~= nil and ns.db.picons_trainer and icon == "trainer") then return ns.db["icon_scale_trainer"] * 0.75 end
     -- anvil npcs are vendors
-    if (icon == "anvil") then return ns.db["icon_scale_vendor"] end
+    if (icon == "anvil" or icon == "quartermaster") then return ns.db["icon_scale_vendor"] end
 
     return ns.db["icon_scale_"..icon]
 end
 
 local function GetIconAlpha(icon)
     -- anvil npcs are vendors
-    if (icon == "anvil") then return ns.db["icon_alpha_vendor"] end
+    if (icon == "anvil" or icon == "quartermaster") then return ns.db["icon_alpha_vendor"] end
 
     return ns.db["icon_alpha_"..icon]
 end
@@ -397,7 +397,7 @@ do
             if (node.icon == "portaltrainer" and not ns.db.show_portaltrainer) then return false end
             if (node.icon == "transmogrifier" and not ns.db.show_transmogrifier) then return false end
             if (node.icon == "tpplatform" and (not ns.db.show_tpplatform or C_AddOns.IsAddOnLoaded("HandyNotes_TravelGuide"))) then return false end
-            if ((node.icon == "vendor" or node.icon == "anvil") and not ns.db.show_vendor) then return false end
+            if ((node.icon == "vendor" or node.icon == "anvil" or node.icon == "quartermaster") and not ns.db.show_vendor) then return false end
         end
         return true
     end
